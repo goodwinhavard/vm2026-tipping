@@ -1,0 +1,28 @@
+{
+  "goodwin": {
+    "total": 3,
+    "breakdown": {
+      "group_stage": 1,
+      "round_of_32": 2,
+      "round_of_16": 0,
+      "quarter_finals": 0,
+      "semi_finals": 0,
+      "finals_teams": 0,
+      "finals_winner": 0,
+      "total": 3
+    }
+  },
+  "haavard": {
+    "total": 5,
+    "breakdown": {
+      "group_stage": 3,
+      "round_of_32": 2,
+      "round_of_16": 0,
+      "quarter_finals": 0,
+      "semi_finals": 0,
+      "finals_teams": 0,
+      "finals_winner": 0,
+      "total": 5
+    }
+  }
+}
