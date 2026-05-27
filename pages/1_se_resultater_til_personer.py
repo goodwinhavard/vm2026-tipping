@@ -21,76 +21,7 @@ scores_data = load_json('scores.json')
 predictions_data = load_json('all_tournament_tips.json')
 actual_data = load_json('real_results.json')
 
-# Title and Header
-st.markdown("# 🏆 Competition Results")
-st.markdown("---")
-
-# Main Leaderboard
-col1, col2, col3 = st.columns(3)
-
 sorted_scores = sorted(scores_data.items(), key=lambda x: x[1]['total'], reverse=True)
-
-with col1:
-    st.metric("🥇 Leader", sorted_scores[0][0].title(), f"{sorted_scores[0][1]['total']} pts")
-if len(sorted_scores) > 1:
-    with col2:
-        st.metric("🥈 Second", sorted_scores[1][0].title(), f"{sorted_scores[1][1]['total']} pts")
-if len(sorted_scores) > 2:
-    with col3:
-        st.metric("🥉 Third", sorted_scores[2][0].title(), f"{sorted_scores[2][1]['total']} pts")
-
-st.markdown("---")
-
-# Tournament Progress Section
-st.subheader("📊 Tournament Progress")
-
-# Count played matches (not 999)
-played_matches = sum(1 for match in actual_data['predictions']['results']['matches'] 
-                     if match['home_score'] != 999 and match['away_score'] != 999)
-total_matches = len(actual_data['predictions']['results']['matches'])
-
-# Count completed stages
-round32 = len([t for t in actual_data['predictions']['results']['round_of_32'] if t])
-round16 = len([t for t in actual_data['predictions']['results']['round_of_16'] if t])
-qf = len([t for t in actual_data['predictions']['results']['quarter_finals'] if t])
-sf = len([t for t in actual_data['predictions']['results']['semi_finals'] if t])
-finals = len([t for t in actual_data['predictions']['results']['finals']['teams'] if t])
-
-progress_col1, progress_col2, progress_col3 = st.columns(3)
-with progress_col1:
-    st.metric("Group Stage", f"{played_matches}/{total_matches} matches", f"{int(played_matches/total_matches*100)}%")
-with progress_col2:
-    stages_complete = sum([bool(round32), bool(round16), bool(qf), bool(sf), bool(finals)])
-    st.metric("Knockout Stages", f"{stages_complete}/5 complete")
-with progress_col3:
-    if finals:
-        winner = actual_data['predictions']['results']['finals']['winner']
-        st.metric("🏆 Current Champion", winner if winner else "TBD")
-
-st.markdown("---")
-
-# Full Leaderboard Table
-st.subheader("🏆 Full Leaderboard")
-
-leaderboard_data = []
-for rank, (person, data) in enumerate(sorted_scores, 1):
-    leaderboard_data.append({
-        'Rank': rank,
-        'Person': person.title(),
-        'Total': data['total'],
-        'Group Stage': data['breakdown']['group_stage'],
-        'R32': data['breakdown']['round_of_32'],
-        'R16': data['breakdown']['round_of_16'],
-        'QF': data['breakdown']['quarter_finals'],
-        'SF': data['breakdown']['semi_finals'],
-        'Finals': data['breakdown']['finals_teams'],
-        'Winner': data['breakdown']['finals_winner']
-    })
-
-leaderboard_df = pd.DataFrame(leaderboard_data)
-st.dataframe(leaderboard_df, use_container_width=True, hide_index=True)
-
-st.markdown("---")
 
 # Detailed View Section
 st.subheader("🔍 Detailed Results Per Person")
@@ -173,7 +104,6 @@ if person_pred and person_scores:
                 'Match': f"{pred_match['home']} vs {pred_match['away']}",
                 'Prediction': f"{pred_match['home_score']}-{pred_match['away_score']}",
                 'Actual': f"{actual_match['home_score']}-{actual_match['away_score']}" if actual_match['home_score'] != 999 else "TBD",
-                'Status': status,
                 'Points': points
             })
         

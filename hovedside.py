@@ -11,16 +11,8 @@ st.set_page_config(
 )
 
 # Title
-st.markdown("# ⚽ VM 2026 - Tippekonkurranse")
+st.markdown("# ⚽ VM 2026 - Tippekonkurranse Forettningsstyring + Tribe 🏆")
 st.markdown("---")
-
-# Welcome Section
-st.markdown("""
-## VM 2026 Tippekonkurransen!
-
-### 🏆 Konkurransestatus
-
-""")
 
 # Load competition status
 import json
@@ -39,15 +31,20 @@ try:
                          if match['home_score'] != 999 and match['away_score'] != 999)
     total_matches = len(actual_data['predictions']['results']['matches'])
     
-    # Get current leader
     sorted_scores = sorted(scores_data.items(), key=lambda x: x[1]['total'], reverse=True)
-    leader = sorted_scores[0][0].title() if sorted_scores else "TBD"
-    leader_score = sorted_scores[0][1]['total'] if sorted_scores else 0
-    
-    st.metric("Nåværende leder", leader, f"{leader_score} poeng")
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric("🥇 Leder", sorted_scores[0][0].title(), f"{sorted_scores[0][1]['total']} pts")
+    if len(sorted_scores) > 1:
+        with col2:
+            st.metric("🥈 Andre", sorted_scores[1][0].title(), f"{sorted_scores[1][1]['total']} pts")
+    if len(sorted_scores) > 2:
+        with col3:
+            st.metric("🥉 Tredje", sorted_scores[2][0].title(), f"{sorted_scores[2][1]['total']} pts")
 
     st.markdown("---")
-    st.subheader("🏆 Full Leaderboard")
+    st.subheader("🏆 Tabell")
 
     leaderboard_data = []
     for rank, (person, data) in enumerate(sorted_scores, 1):
