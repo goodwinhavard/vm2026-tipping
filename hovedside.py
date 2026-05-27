@@ -31,7 +31,7 @@ def load_json(filename):
         return json.load(f)
 
 try:
-    actual_data = load_json('current_results.json')
+    actual_data = load_json('real_results.json')
     scores_data = load_json('scores.json')
     
     # Count played matches

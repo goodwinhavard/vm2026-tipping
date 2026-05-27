@@ -19,7 +19,7 @@ def load_json(filename):
     with open(filename, 'r') as f:
         return json.load(f)
 
-predictions_data = load_json('all_tournament_results.json')
+predictions_data = load_json('all_tournament_tips.json')
 
 # Get list of people
 people = sorted(predictions_data['predictions'].keys())

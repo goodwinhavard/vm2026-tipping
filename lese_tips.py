@@ -187,8 +187,8 @@ if __name__ == '__main__':
     print(f"\n{'='*70}")
     print("SAVING ALL RESULTS")
     print('='*70)
-    save_results(all_results, 'all_tournament_results.json')
-    print("\nAll predictions saved to all_tournament_results.json")
+    save_results(all_results, 'all_tournament_tips.json')
+    print("\nAll predictions saved to all_tournament_tips.json")
     
     # Print summary comparison
     print(f"\n{'='*70}")

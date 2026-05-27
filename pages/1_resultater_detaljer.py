@@ -18,8 +18,8 @@ def load_json(filename):
         return json.load(f)
 
 scores_data = load_json('scores.json')
-predictions_data = load_json('all_tournament_results.json')
-actual_data = load_json('current_results.json')
+predictions_data = load_json('all_tournament_tips.json')
+actual_data = load_json('real_results.json')
 
 # Title and Header
 st.markdown("# 🏆 Competition Results")

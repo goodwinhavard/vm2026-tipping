@@ -144,8 +144,8 @@ def calculate_person_score(prediction_data, actual_data):
 # Main execution
 if __name__ == '__main__':
     # Load data
-    predictions = load_json('all_tournament_results.json')
-    actual = load_json('current_results.json')
+    predictions = load_json('all_tournament_tips.json')
+    actual = load_json('real_results.json')
     
     print("=" * 70)
     print("WORLD CUP 2026 - TIPPING COMPETITION SCORES")
