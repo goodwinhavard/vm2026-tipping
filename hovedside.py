@@ -46,19 +46,51 @@ try:
     st.markdown("---")
     st.subheader("🏆 Tabell")
 
+    actual_results = actual_data['predictions']['results']
+
+    def _actual_list(key):
+        val = actual_results.get(key, [])
+        return [val] if (val and not isinstance(val, list)) else (val or [])
+
+    unplayed_matches = sum(
+        1 for m in actual_results['matches']
+        if m['home_score'] == 999 or m['away_score'] == 999
+    )
+
+    knockout_stages = [
+        ('round_of_32', 32),
+        ('round_of_16', 16),
+        ('quarter_finals', 8),
+        ('semi_finals', 4),
+    ]
+
+    def max_potential(breakdown):
+        add = unplayed_matches * 3
+        for stage_key, total_teams in knockout_stages:
+            if len(_actual_list(stage_key)) < total_teams:
+                add += max(0, 64 - breakdown[stage_key])
+        finals = actual_results.get('finals', {})
+        if len(finals.get('teams', [])) < 2:
+            add += max(0, 64 - breakdown['finals_teams'])
+        if not finals.get('winner', ''):
+            add += max(0, 64 - breakdown['finals_winner'])
+        return breakdown['total'] + add
+
     leaderboard_data = []
     for rank, (person, data) in enumerate(sorted_scores, 1):
+        breakdown = data['breakdown']
         leaderboard_data.append({
             'Rank': rank,
             'Person': person.title(),
             'Total': data['total'],
-            'Group Stage': data['breakdown']['group_stage'],
-            'R32': data['breakdown']['round_of_32'],
-            'R16': data['breakdown']['round_of_16'],
-            'QF': data['breakdown']['quarter_finals'],
-            'SF': data['breakdown']['semi_finals'],
-            'Finals': data['breakdown']['finals_teams'],
-            'Winner': data['breakdown']['finals_winner']
+            'Maks Pot.': max_potential(breakdown),
+            'Group Stage': breakdown['group_stage'],
+            'R32': breakdown['round_of_32'],
+            'R16': breakdown['round_of_16'],
+            'QF': breakdown['quarter_finals'],
+            'SF': breakdown['semi_finals'],
+            'Finals': breakdown['finals_teams'],
+            'Winner': breakdown['finals_winner']
         })
 
     leaderboard_df = pd.DataFrame(leaderboard_data)
