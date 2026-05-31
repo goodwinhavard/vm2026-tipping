@@ -83,7 +83,7 @@ try:
             'Rank': rank,
             'Person': person.title(),
             'Total': data['total'],
-            'Maks Pot.': max_potential(breakdown),
+            'Maks Mulig poeng': max_potential(breakdown),
             'Group Stage': breakdown['group_stage'],
             'R32': breakdown['round_of_32'],
             'R16': breakdown['round_of_16'],
