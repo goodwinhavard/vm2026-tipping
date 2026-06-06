@@ -150,7 +150,7 @@ def display_results(tournament_data):
 # Main execution
 if __name__ == '__main__':
     # Find all Excel files in the current directory
-    excel_files = glob.glob('*.xlsx')
+    excel_files = glob.glob('excel_tips/*.xlsx')
     
     if not excel_files:
         print("No Excel files found in the current directory.")
@@ -198,4 +198,3 @@ if __name__ == '__main__':
         winner = data['finals']['winner'] if data['finals']['winner'] else "Unknown"
         score = data['finals']['winner_score'] if data['finals']['winner_score'] else "N/A"
         print(f"{person:20} -> {winner} ({score})")
-

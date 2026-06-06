@@ -1,10 +1,10 @@
 {
-  "extraction_date": "2026-05-23T16:47:15.131892",
+  "extraction_date": "2026-06-06T14:03:39.671692",
   "files_processed": 2,
   "predictions": {
     "goodwin": {
-      "file": "goodwin.xlsx",
-      "extraction_date": "2026-05-23T16:47:15.498878",
+      "file": "excel_tips\\goodwin.xlsx",
+      "extraction_date": "2026-06-06T14:03:40.023998",
       "matches": [
         {
           "home": "Mexico",
@@ -521,8 +521,8 @@
       }
     },
     "haavard": {
-      "file": "haavard.xlsx",
-      "extraction_date": "2026-05-23T16:47:15.618257",
+      "file": "excel_tips\\haavard.xlsx",
+      "extraction_date": "2026-06-06T14:03:40.152138",
       "matches": [
         {
           "home": "Mexico",
