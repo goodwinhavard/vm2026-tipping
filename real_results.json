@@ -1,5 +1,5 @@
 {
-  "extraction_date": "2026-05-31",
+  "extraction_date": "2026-06-07",
   "files_processed": 999,
   "predictions": {
     "results": {
@@ -8,14 +8,14 @@
       "matches": [
         {
           "home": "Mexico",
-          "home_score": 2,
-          "away_score": 1,
+          "home_score": 999,
+          "away_score": 999,
           "away": "South Africa"
         },
         {
           "home": "Korea Republic",
-          "home_score": 1,
-          "away_score": 3,
+          "home_score": 999,
+          "away_score": 999,
           "away": "Czech Republic"
         },
         {
@@ -440,7 +440,6 @@
         }
       ],
       "round_of_32": [
-        "Norway"
       ],
       "round_of_16": [
       ],
