@@ -141,17 +141,11 @@ def calculate_person_score(prediction_data, actual_data):
     
     return total_score, breakdown
 
-# Main execution
-if __name__ == '__main__':
-    # Load data
-    predictions = load_json('all_tournament_tips.json')
-    actual = load_json('real_results.json')
-    
-    print("=" * 70)
-    print("WORLD CUP 2026 - TIPPING COMPETITION SCORES")
-    print("=" * 70)
-    
-    # Calculate scores for each person
+def calculate_scores(predictions_file='all_tournament_tips.json', results_file='real_results.json'):
+    """Calculate scores for all participants and return as a dict."""
+    predictions = load_json(predictions_file)
+    actual = load_json(results_file)
+
     scores = {}
     for person_name, person_prediction in predictions['predictions'].items():
         total_score, breakdown = calculate_person_score(person_prediction, actual['predictions']['results'])
@@ -159,11 +153,19 @@ if __name__ == '__main__':
             'total': total_score,
             'breakdown': breakdown
         }
-    
-    # Display results sorted by score
+    return scores
+
+
+# Main execution
+if __name__ == '__main__':
+    scores = calculate_scores()
+
+    print("=" * 70)
+    print("WORLD CUP 2026 - TIPPING COMPETITION SCORES")
+    print("=" * 70)
     print("\nFINAL SCORES:")
     print("-" * 70)
-    
+
     sorted_scores = sorted(scores.items(), key=lambda x: x[1]['total'], reverse=True)
 
     for rank, (person, data) in enumerate(sorted_scores, 1):
@@ -175,11 +177,5 @@ if __name__ == '__main__':
         print(f"   Semi Finals:        {data['breakdown']['semi_finals']:3} points")
         print(f"   Finals Teams:       {data['breakdown']['finals_teams']:3} points")
         print(f"   Finals Winner:      {data['breakdown']['finals_winner']:3} points")
-    
-    # Save scores to file
-    with open('scores.json', 'w') as f:
-        json.dump(scores, f, indent=2)
-    
+
     print("\n" + "=" * 70)
-    print("Scores saved to scores.json")
-    print("=" * 70)

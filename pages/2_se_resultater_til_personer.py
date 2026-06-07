@@ -12,12 +12,21 @@ st.set_page_config(
 )
 
 # Load data
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+from calculate_score import calculate_scores
+
 @st.cache_data
 def load_json(filename):
     with open(filename, 'r') as f:
         return json.load(f)
 
-scores_data = load_json('scores.json')
+@st.cache_data
+def get_scores():
+    return calculate_scores()
+
+scores_data = get_scores()
 predictions_data = load_json('all_tournament_tips.json')
 actual_data = load_json('real_results.json')
 

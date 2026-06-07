@@ -16,15 +16,23 @@ st.markdown("---")
 
 # Load competition status
 import json
+import sys
+import os
+sys.path.insert(0, os.path.dirname(__file__))
+from calculate_score import calculate_scores
 
 @st.cache_data
 def load_json(filename):
     with open(filename, 'r') as f:
         return json.load(f)
 
+@st.cache_data
+def get_scores():
+    return calculate_scores()
+
 try:
     actual_data = load_json('real_results.json')
-    scores_data = load_json('scores.json')
+    scores_data = get_scores()
     
     # Count played matches
     played_matches = sum(1 for match in actual_data['predictions']['results']['matches'] 
