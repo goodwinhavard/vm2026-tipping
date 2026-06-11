@@ -1,10 +1,10 @@
 {
-  "extraction_date": "2026-06-07T17:24:06.347641",
-  "files_processed": 12,
+  "extraction_date": "2026-06-11T17:08:02.900981",
+  "files_processed": 23,
   "predictions": {
     "Anders": {
       "file": "excel_tips\\Anders.xlsx",
-      "extraction_date": "2026-06-07T17:24:06.601182",
+      "extraction_date": "2026-06-11T17:08:03.249720",
       "matches": [
         {
           "home": "Mexico",
@@ -520,9 +520,2081 @@
         "winner_score": 1
       }
     },
+    "Calle": {
+      "file": "excel_tips\\Calle.xlsx",
+      "extraction_date": "2026-06-11T17:08:03.315725",
+      "matches": [
+        {
+          "home": "Mexico",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "S\u00f8r-Korea",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Tsjekkia"
+        },
+        {
+          "home": "Canada",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "USA",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Haiti",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Skottland"
+        },
+        {
+          "home": "Australia",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Tyrkia"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "Marokko"
+        },
+        {
+          "home": "Qatar",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Sveits"
+        },
+        {
+          "home": "Elfenbenskysten",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Ecuador"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 6,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Japan"
+        },
+        {
+          "home": "Sverige",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Tunisia"
+        },
+        {
+          "home": "Saudi-Arabia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Uruguay"
+        },
+        {
+          "home": "Spania",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Iran",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "New Zealand"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Egypt"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 3,
+          "away_score": 2,
+          "away": "Senegal"
+        },
+        {
+          "home": "Irak",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Norge"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Algerie"
+        },
+        {
+          "home": "\u00d8sterrike",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "Jordan"
+        },
+        {
+          "home": "Ghana",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Panama"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Usbekistan",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Colombia"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "Canada",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Qatar"
+        },
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Marokko"
+        },
+        {
+          "home": "USA",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Australia"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 4,
+          "away_score": 2,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Japan"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Spania",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Egypt"
+        },
+        {
+          "home": "Norge",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Irak"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Algerie"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Ghana"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "Usbekistan"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Brasil"
+        },
+        {
+          "home": "Marokko",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Canada"
+        },
+        {
+          "home": "Bosnia-Hercegovina",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Qatar"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Mexico"
+        },
+        {
+          "home": "S\u00f8r-Afrika",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Cura\u00e7ao",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Tyskland"
+        },
+        {
+          "home": "Japan",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Nederland"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "USA"
+        },
+        {
+          "home": "Paraguay",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Australia"
+        },
+        {
+          "home": "Norge",
+          "home_score": 3,
+          "away_score": 3,
+          "away": "Frankrike"
+        },
+        {
+          "home": "Senegal",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Irak"
+        },
+        {
+          "home": "Egypt",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Belgia"
+        },
+        {
+          "home": "Kapp Verde",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Spania"
+        },
+        {
+          "home": "Panama",
+          "home_score": 1,
+          "away_score": 4,
+          "away": "England"
+        },
+        {
+          "home": "Kroatia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Ghana"
+        },
+        {
+          "home": "Algerie",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Argentina"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "Portugal"
+        },
+        {
+          "home": "DR Kongo",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Usbekistan"
+        }
+      ],
+      "round_of_32": [
+        "Tyskland",
+        "Paraguay",
+        "Frankrike",
+        "Japan",
+        "S\u00f8r-Korea",
+        "Sveits",
+        "Nederland",
+        "Brasil",
+        "Colombia",
+        "Kroatia",
+        "Spania",
+        "\u00d8sterrike",
+        "USA",
+        "Bosnia-Hercegovina",
+        "Belgia",
+        "Elfenbenskysten",
+        "Marokko",
+        "Sverige",
+        "Ecuador",
+        "Norge",
+        "Mexico",
+        "Skottland",
+        "England",
+        "Senegal",
+        "Argentina",
+        "Uruguay",
+        "Tyrkia",
+        "Egypt",
+        "Canada",
+        "Algerie",
+        "Portugal",
+        "Ghana"
+      ],
+      "round_of_16": [
+        "Tyskland",
+        "Frankrike",
+        "Sveits",
+        "Nederland",
+        "Kroatia",
+        "Spania",
+        "USA",
+        "Belgia",
+        "Marokko",
+        "Norge",
+        "Mexico",
+        "England",
+        "Argentina",
+        "Tyrkia",
+        "Canada",
+        "Portugal"
+      ],
+      "quarter_finals": [
+        "Tyskland",
+        "Nederland",
+        "Spania",
+        "USA",
+        "Marokko",
+        "England",
+        "Argentina",
+        "Portugal"
+      ],
+      "semi_finals": [
+        "Tyskland",
+        "Spania",
+        "England",
+        "Argentina"
+      ],
+      "finals": {
+        "teams": [
+          "Spania",
+          "England"
+        ],
+        "scores": [
+          2,
+          2
+        ],
+        "winner": "England",
+        "winner_score": 2
+      }
+    },
+    "Christian": {
+      "file": "excel_tips\\Christian.xlsx",
+      "extraction_date": "2026-06-11T17:08:03.394549",
+      "matches": [
+        {
+          "home": "Mexico",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "S\u00f8r-Korea",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Tsjekkia"
+        },
+        {
+          "home": "Canada",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "USA",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Haiti",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Skottland"
+        },
+        {
+          "home": "Australia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Tyrkia"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Marokko"
+        },
+        {
+          "home": "Qatar",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Sveits"
+        },
+        {
+          "home": "Elfenbenskysten",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Ecuador"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Japan"
+        },
+        {
+          "home": "Sverige",
+          "home_score": 0,
+          "away_score": 0,
+          "away": "Tunisia"
+        },
+        {
+          "home": "Saudi-Arabia",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Uruguay"
+        },
+        {
+          "home": "Spania",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Iran",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "New Zealand"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Egypt"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Irak",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Norge"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Algerie"
+        },
+        {
+          "home": "\u00d8sterrike",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Jordan"
+        },
+        {
+          "home": "Ghana",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Panama"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Usbekistan",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Colombia"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "Canada",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Qatar"
+        },
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Marokko"
+        },
+        {
+          "home": "USA",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Australia"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Japan"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Spania",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Egypt"
+        },
+        {
+          "home": "Norge",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Irak"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Algerie"
+        },
+        {
+          "home": "England",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Panama",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Usbekistan"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Brasil"
+        },
+        {
+          "home": "Marokko",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Canada"
+        },
+        {
+          "home": "Bosnia-Hercegovina",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Qatar"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Mexico"
+        },
+        {
+          "home": "S\u00f8r-Afrika",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Cura\u00e7ao",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Tyskland"
+        },
+        {
+          "home": "Japan",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Nederland"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "USA"
+        },
+        {
+          "home": "Paraguay",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Australia"
+        },
+        {
+          "home": "Norge",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Frankrike"
+        },
+        {
+          "home": "Senegal",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Irak"
+        },
+        {
+          "home": "Egypt",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Belgia"
+        },
+        {
+          "home": "Kapp Verde",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Spania"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "England"
+        },
+        {
+          "home": "Kroatia",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Algerie",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Argentina"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Portugal"
+        },
+        {
+          "home": "DR Kongo",
+          "home_score": 0,
+          "away_score": 0,
+          "away": "Usbekistan"
+        }
+      ],
+      "round_of_32": [
+        "Tyskland",
+        "Australia",
+        "Frankrike",
+        "Egypt",
+        "S\u00f8r-Korea",
+        "Canada",
+        "Nederland",
+        "Marokko",
+        "Colombia",
+        "England",
+        "Spania",
+        "\u00d8sterrike",
+        "USA",
+        "Qatar",
+        "Belgia",
+        "Tsjekkia",
+        "Brasil",
+        "Japan",
+        "Elfenbenskysten",
+        "Senegal",
+        "Mexico",
+        "Ecuador",
+        "Kroatia",
+        "Norge",
+        "Argentina",
+        "Uruguay",
+        "Tyrkia",
+        "Iran",
+        "Sveits",
+        "Algerie",
+        "Portugal",
+        "Panama"
+      ],
+      "round_of_16": [
+        "Tyskland",
+        "Frankrike",
+        "S\u00f8r-Korea",
+        "Nederland",
+        "England",
+        "Spania",
+        "USA",
+        "Belgia",
+        "Brasil",
+        "Senegal",
+        "Mexico",
+        "Kroatia",
+        "Argentina",
+        "Iran",
+        "Sveits",
+        "Portugal"
+      ],
+      "quarter_finals": [
+        "Frankrike",
+        "Nederland",
+        "Spania",
+        "Belgia",
+        "Brasil",
+        "Kroatia",
+        "Argentina",
+        "Portugal"
+      ],
+      "semi_finals": [
+        "Nederland",
+        "Spania",
+        "Kroatia",
+        "Argentina"
+      ],
+      "finals": {
+        "teams": [
+          "Spania",
+          "Argentina"
+        ],
+        "scores": [
+          1,
+          0
+        ],
+        "winner": "Spania",
+        "winner_score": 1
+      }
+    },
+    "Eivind": {
+      "file": "excel_tips\\Eivind.xlsx",
+      "extraction_date": "2026-06-11T17:08:03.457590",
+      "matches": [
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "S\u00f8r-Korea",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Tsjekkia"
+        },
+        {
+          "home": "Canada",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "USA",
+          "home_score": 3,
+          "away_score": 2,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Haiti",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Skottland"
+        },
+        {
+          "home": "Australia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Tyrkia"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Marokko"
+        },
+        {
+          "home": "Qatar",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Sveits"
+        },
+        {
+          "home": "Elfenbenskysten",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Ecuador"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Japan"
+        },
+        {
+          "home": "Sverige",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Tunisia"
+        },
+        {
+          "home": "Saudi-Arabia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Uruguay"
+        },
+        {
+          "home": "Spania",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Iran",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "New Zealand"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Egypt"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Irak",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Norge"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Algerie"
+        },
+        {
+          "home": "\u00d8sterrike",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Jordan"
+        },
+        {
+          "home": "Ghana",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Panama"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Usbekistan",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Colombia"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "Canada",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Qatar"
+        },
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Haiti"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Marokko"
+        },
+        {
+          "home": "USA",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Australia"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Japan"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Spania",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 0,
+          "away": "Egypt"
+        },
+        {
+          "home": "Norge",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Irak"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Algerie"
+        },
+        {
+          "home": "England",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Usbekistan"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Brasil"
+        },
+        {
+          "home": "Marokko",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Canada"
+        },
+        {
+          "home": "Bosnia-Hercegovina",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Qatar"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Mexico"
+        },
+        {
+          "home": "S\u00f8r-Afrika",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Cura\u00e7ao",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Tyskland"
+        },
+        {
+          "home": "Japan",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Nederland"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "USA"
+        },
+        {
+          "home": "Paraguay",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Australia"
+        },
+        {
+          "home": "Norge",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Frankrike"
+        },
+        {
+          "home": "Senegal",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Irak"
+        },
+        {
+          "home": "Egypt",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Belgia"
+        },
+        {
+          "home": "Kapp Verde",
+          "home_score": 0,
+          "away_score": 0,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Spania"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "England"
+        },
+        {
+          "home": "Kroatia",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Algerie",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Argentina"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Portugal"
+        },
+        {
+          "home": "DR Kongo",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Usbekistan"
+        }
+      ],
+      "round_of_32": [
+        "Tyskland",
+        "Paraguay",
+        "Frankrike",
+        "Sverige",
+        "S\u00f8r-Korea",
+        "Bosnia-Hercegovina",
+        "Nederland",
+        "Skottland",
+        "Colombia",
+        "Kroatia",
+        "Spania",
+        "\u00d8sterrike",
+        "USA",
+        "Canada",
+        "Belgia",
+        "Norge",
+        "Brasil",
+        "Japan",
+        "Ecuador",
+        "Senegal",
+        "Mexico",
+        "Marokko",
+        "England",
+        "DR Kongo",
+        "Argentina",
+        "Uruguay",
+        "Tyrkia",
+        "Egypt",
+        "Sveits",
+        "New Zealand",
+        "Portugal",
+        "Ghana"
+      ],
+      "round_of_16": [
+        "Tyskland",
+        "Frankrike",
+        "Bosnia-Hercegovina",
+        "Nederland",
+        "Kroatia",
+        "Spania",
+        "USA",
+        "Belgia",
+        "Brasil",
+        "Ecuador",
+        "Mexico",
+        "England",
+        "Argentina",
+        "Tyrkia",
+        "Sveits",
+        "Portugal"
+      ],
+      "quarter_finals": [
+        "Frankrike",
+        "Nederland",
+        "Spania",
+        "USA",
+        "Brasil",
+        "England",
+        "Argentina",
+        "Portugal"
+      ],
+      "semi_finals": [
+        "Frankrike",
+        "Spania",
+        "England",
+        "Argentina"
+      ],
+      "finals": {
+        "teams": [
+          "Spania",
+          "Argentina"
+        ],
+        "scores": [
+          3,
+          1
+        ],
+        "winner": "Spania",
+        "winner_score": 3
+      }
+    },
+    "ErikH": {
+      "file": "excel_tips\\ErikH.xlsx",
+      "extraction_date": "2026-06-11T17:08:03.521596",
+      "matches": [
+        {
+          "home": "Mexico",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "S\u00f8r-Korea",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Tsjekkia"
+        },
+        {
+          "home": "Canada",
+          "home_score": 3,
+          "away_score": 3,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "USA",
+          "home_score": 3,
+          "away_score": 2,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Haiti",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Skottland"
+        },
+        {
+          "home": "Australia",
+          "home_score": 3,
+          "away_score": 2,
+          "away": "Tyrkia"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Marokko"
+        },
+        {
+          "home": "Qatar",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Sveits"
+        },
+        {
+          "home": "Elfenbenskysten",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Ecuador"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Japan"
+        },
+        {
+          "home": "Sverige",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Tunisia"
+        },
+        {
+          "home": "Saudi-Arabia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Uruguay"
+        },
+        {
+          "home": "Spania",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Iran",
+          "home_score": 0,
+          "away_score": 0,
+          "away": "New Zealand"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Egypt"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Senegal"
+        },
+        {
+          "home": "Irak",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Norge"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Algerie"
+        },
+        {
+          "home": "\u00d8sterrike",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Jordan"
+        },
+        {
+          "home": "Ghana",
+          "home_score": 0,
+          "away_score": 0,
+          "away": "Panama"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Usbekistan",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Colombia"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "Canada",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Qatar"
+        },
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 3,
+          "away_score": 3,
+          "away": "Marokko"
+        },
+        {
+          "home": "USA",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Australia"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Japan"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Spania",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Egypt"
+        },
+        {
+          "home": "Norge",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Irak"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Algerie"
+        },
+        {
+          "home": "England",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Usbekistan"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "Brasil"
+        },
+        {
+          "home": "Marokko",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Canada"
+        },
+        {
+          "home": "Bosnia-Hercegovina",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Qatar"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Mexico"
+        },
+        {
+          "home": "S\u00f8r-Afrika",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Cura\u00e7ao",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Tyskland"
+        },
+        {
+          "home": "Japan",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Nederland"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "USA"
+        },
+        {
+          "home": "Paraguay",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Australia"
+        },
+        {
+          "home": "Norge",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Frankrike"
+        },
+        {
+          "home": "Senegal",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "Irak"
+        },
+        {
+          "home": "Egypt",
+          "home_score": 3,
+          "away_score": 2,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 4,
+          "away": "Belgia"
+        },
+        {
+          "home": "Kapp Verde",
+          "home_score": 0,
+          "away_score": 0,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Spania"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "England"
+        },
+        {
+          "home": "Kroatia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Algerie",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Argentina"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "Portugal"
+        },
+        {
+          "home": "DR Kongo",
+          "home_score": 3,
+          "away_score": 3,
+          "away": "Usbekistan"
+        }
+      ],
+      "round_of_32": [
+        "Tyskland",
+        "Tyrkia",
+        "Norge",
+        "Japan",
+        "S\u00f8r-Afrika",
+        "Bosnia-Hercegovina",
+        "Nederland",
+        "Skottland",
+        "Colombia",
+        "Kroatia",
+        "Spania",
+        "\u00d8sterrike",
+        "Australia",
+        "Canada",
+        "Belgia",
+        "Mexico",
+        "Brasil",
+        "Sverige",
+        "Elfenbenskysten",
+        "Frankrike",
+        "S\u00f8r-Korea",
+        "Marokko",
+        "England",
+        "Irak",
+        "Argentina",
+        "Uruguay",
+        "USA",
+        "Egypt",
+        "Sveits",
+        "New Zealand",
+        "Portugal",
+        "Ecuador"
+      ],
+      "round_of_16": [
+        "Tyskland",
+        "Norge",
+        "S\u00f8r-Afrika",
+        "Nederland",
+        "Kroatia",
+        "Spania",
+        "Australia",
+        "Belgia",
+        "Brasil",
+        "Frankrike",
+        "S\u00f8r-Korea",
+        "England",
+        "Argentina",
+        "USA",
+        "Sveits",
+        "Portugal"
+      ],
+      "quarter_finals": [
+        "Norge",
+        "Nederland",
+        "Spania",
+        "Belgia",
+        "Frankrike",
+        "England",
+        "Argentina",
+        "Portugal"
+      ],
+      "semi_finals": [
+        "Norge",
+        "Spania",
+        "England",
+        "Argentina"
+      ],
+      "finals": {
+        "teams": [
+          "Spania",
+          "Argentina"
+        ],
+        "scores": [
+          1,
+          0
+        ],
+        "winner": "Spania",
+        "winner_score": 1
+      }
+    },
     "Espen": {
       "file": "excel_tips\\Espen.xlsx",
-      "extraction_date": "2026-06-07T17:24:06.672687",
+      "extraction_date": "2026-06-11T17:08:03.595999",
       "matches": [
         {
           "home": "Mexico",
@@ -1038,9 +3110,527 @@
         "winner_score": 2
       }
     },
+    "Haakon": {
+      "file": "excel_tips\\Haakon.xlsx",
+      "extraction_date": "2026-06-11T17:08:03.659032",
+      "matches": [
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "S\u00f8r-Korea",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Tsjekkia"
+        },
+        {
+          "home": "Canada",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "USA",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Haiti",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Skottland"
+        },
+        {
+          "home": "Australia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Tyrkia"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Marokko"
+        },
+        {
+          "home": "Qatar",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Sveits"
+        },
+        {
+          "home": "Elfenbenskysten",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Ecuador"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Japan"
+        },
+        {
+          "home": "Sverige",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Tunisia"
+        },
+        {
+          "home": "Saudi-Arabia",
+          "home_score": 0,
+          "away_score": 4,
+          "away": "Uruguay"
+        },
+        {
+          "home": "Spania",
+          "home_score": 5,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Iran",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "New Zealand"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Egypt"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Irak",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Norge"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Algerie"
+        },
+        {
+          "home": "\u00d8sterrike",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Jordan"
+        },
+        {
+          "home": "Ghana",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Panama"
+        },
+        {
+          "home": "England",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Usbekistan",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Colombia"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "Canada",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Qatar"
+        },
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Marokko"
+        },
+        {
+          "home": "USA",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Australia"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Japan"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Spania",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Egypt"
+        },
+        {
+          "home": "Norge",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Senegal"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "Irak"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Algerie"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Usbekistan"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Brasil"
+        },
+        {
+          "home": "Marokko",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Canada"
+        },
+        {
+          "home": "Bosnia-Hercegovina",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Qatar"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Mexico"
+        },
+        {
+          "home": "S\u00f8r-Afrika",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Cura\u00e7ao",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Tyskland"
+        },
+        {
+          "home": "Japan",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Nederland"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "USA"
+        },
+        {
+          "home": "Paraguay",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Australia"
+        },
+        {
+          "home": "Norge",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Frankrike"
+        },
+        {
+          "home": "Senegal",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Irak"
+        },
+        {
+          "home": "Egypt",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Belgia"
+        },
+        {
+          "home": "Kapp Verde",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Spania"
+        },
+        {
+          "home": "Panama",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "England"
+        },
+        {
+          "home": "Kroatia",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Ghana"
+        },
+        {
+          "home": "Algerie",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Argentina"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Portugal"
+        },
+        {
+          "home": "DR Kongo",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Usbekistan"
+        }
+      ],
+      "round_of_32": [
+        "Tyskland",
+        "Skottland",
+        "Frankrike",
+        "Paraguay",
+        "S\u00f8r-Korea",
+        "Canada",
+        "Nederland",
+        "Marokko",
+        "Colombia",
+        "Kroatia",
+        "Spania",
+        "\u00d8sterrike",
+        "USA",
+        "Algerie",
+        "Belgia",
+        "Tsjekkia",
+        "Brasil",
+        "Japan",
+        "Ecuador",
+        "Senegal",
+        "Mexico",
+        "Elfenbenskysten",
+        "England",
+        "Norge",
+        "Argentina",
+        "Uruguay",
+        "Tyrkia",
+        "Egypt",
+        "Sveits",
+        "Iran",
+        "Portugal",
+        "Panama"
+      ],
+      "round_of_16": [
+        "Tyskland",
+        "Frankrike",
+        "S\u00f8r-Korea",
+        "Nederland",
+        "Colombia",
+        "Spania",
+        "USA",
+        "Belgia",
+        "Brasil",
+        "Senegal",
+        "Mexico",
+        "England",
+        "Argentina",
+        "Tyrkia",
+        "Sveits",
+        "Portugal"
+      ],
+      "quarter_finals": [
+        "Frankrike",
+        "Nederland",
+        "Spania",
+        "Belgia",
+        "Brasil",
+        "England",
+        "Argentina",
+        "Portugal"
+      ],
+      "semi_finals": [
+        "Frankrike",
+        "Spania",
+        "England",
+        "Argentina"
+      ],
+      "finals": {
+        "teams": [
+          "Spania",
+          "England"
+        ],
+        "scores": [
+          1,
+          1
+        ],
+        "winner": "England",
+        "winner_score": 1
+      }
+    },
     "Haavard": {
       "file": "excel_tips\\Haavard.xlsx",
-      "extraction_date": "2026-06-07T17:24:06.749208",
+      "extraction_date": "2026-06-11T17:08:03.719032",
       "matches": [
         {
           "home": "Mexico",
@@ -1558,7 +4148,7 @@
     },
     "Helene": {
       "file": "excel_tips\\Helene.xlsx",
-      "extraction_date": "2026-06-07T17:24:06.811312",
+      "extraction_date": "2026-06-11T17:08:03.788557",
       "matches": [
         {
           "home": "Mexico",
@@ -2076,7 +4666,7 @@
     },
     "Johannes": {
       "file": "excel_tips\\Johannes.xlsx",
-      "extraction_date": "2026-06-07T17:24:06.872775",
+      "extraction_date": "2026-06-11T17:08:03.850093",
       "matches": [
         {
           "home": "Mexico",
@@ -2592,9 +5182,527 @@
         "winner_score": 1
       }
     },
+    "Katrine": {
+      "file": "excel_tips\\Katrine.xlsx",
+      "extraction_date": "2026-06-11T17:08:03.909112",
+      "matches": [
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "S\u00f8r-Korea",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Tsjekkia"
+        },
+        {
+          "home": "Canada",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "USA",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Haiti",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Skottland"
+        },
+        {
+          "home": "Australia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Tyrkia"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "Marokko"
+        },
+        {
+          "home": "Qatar",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Sveits"
+        },
+        {
+          "home": "Elfenbenskysten",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Ecuador"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Japan"
+        },
+        {
+          "home": "Sverige",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Tunisia"
+        },
+        {
+          "home": "Saudi-Arabia",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Uruguay"
+        },
+        {
+          "home": "Spania",
+          "home_score": 5,
+          "away_score": 1,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Iran",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "New Zealand"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Egypt"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Irak",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Norge"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "Algerie"
+        },
+        {
+          "home": "\u00d8sterrike",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Jordan"
+        },
+        {
+          "home": "Ghana",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Panama"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Usbekistan",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Colombia"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "Canada",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Qatar"
+        },
+        {
+          "home": "Mexico",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Marokko"
+        },
+        {
+          "home": "USA",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Australia"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Japan"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Spania",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Egypt"
+        },
+        {
+          "home": "Norge",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Irak"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Algerie"
+        },
+        {
+          "home": "England",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "Ghana"
+        },
+        {
+          "home": "Panama",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Usbekistan"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "Brasil"
+        },
+        {
+          "home": "Marokko",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "Canada"
+        },
+        {
+          "home": "Bosnia-Hercegovina",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Qatar"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Mexico"
+        },
+        {
+          "home": "S\u00f8r-Afrika",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Cura\u00e7ao",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Tyskland"
+        },
+        {
+          "home": "Japan",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Nederland"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "USA"
+        },
+        {
+          "home": "Paraguay",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Australia"
+        },
+        {
+          "home": "Norge",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Frankrike"
+        },
+        {
+          "home": "Senegal",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Irak"
+        },
+        {
+          "home": "Egypt",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 4,
+          "away": "Belgia"
+        },
+        {
+          "home": "Kapp Verde",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 2,
+          "away_score": 4,
+          "away": "Spania"
+        },
+        {
+          "home": "Panama",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "England"
+        },
+        {
+          "home": "Kroatia",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Algerie",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Argentina"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "Portugal"
+        },
+        {
+          "home": "DR Kongo",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Usbekistan"
+        }
+      ],
+      "round_of_32": [
+        "Tyskland",
+        "Skottland",
+        "Frankrike",
+        "Australia",
+        "S\u00f8r-Korea",
+        "Sveits",
+        "Nederland",
+        "Brasil",
+        "Colombia",
+        "Kroatia",
+        "Spania",
+        "\u00d8sterrike",
+        "USA",
+        "Qatar",
+        "Belgia",
+        "Tsjekkia",
+        "Marokko",
+        "Japan",
+        "Ecuador",
+        "Norge",
+        "Mexico",
+        "Elfenbenskysten",
+        "England",
+        "Algerie",
+        "Argentina",
+        "Uruguay",
+        "Tyrkia",
+        "Iran",
+        "Canada",
+        "Egypt",
+        "Portugal",
+        "Panama"
+      ],
+      "round_of_16": [
+        "Tyskland",
+        "Frankrike",
+        "Sveits",
+        "Nederland",
+        "Kroatia",
+        "Spania",
+        "USA",
+        "Belgia",
+        "Marokko",
+        "Norge",
+        "Mexico",
+        "England",
+        "Argentina",
+        "Iran",
+        "Canada",
+        "Portugal"
+      ],
+      "quarter_finals": [
+        "Frankrike",
+        "Nederland",
+        "Spania",
+        "Belgia",
+        "Marokko",
+        "England",
+        "Argentina",
+        "Portugal"
+      ],
+      "semi_finals": [
+        "Frankrike",
+        "Spania",
+        "England",
+        "Argentina"
+      ],
+      "finals": {
+        "teams": [
+          "Spania",
+          "England"
+        ],
+        "scores": [
+          2,
+          3
+        ],
+        "winner": "England",
+        "winner_score": 3
+      }
+    },
     "Krishnan": {
       "file": "excel_tips\\Krishnan.xlsx",
-      "extraction_date": "2026-06-07T17:24:06.953932",
+      "extraction_date": "2026-06-11T17:08:03.979473",
       "matches": [
         {
           "home": "Mexico",
@@ -3110,9 +6218,1563 @@
         "winner_score": 2
       }
     },
+    "KristineB": {
+      "file": "excel_tips\\KristineB.xlsx",
+      "extraction_date": "2026-06-11T17:08:04.042576",
+      "matches": [
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "S\u00f8r-Korea",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Tsjekkia"
+        },
+        {
+          "home": "Canada",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "USA",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Haiti",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Skottland"
+        },
+        {
+          "home": "Australia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Tyrkia"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 3,
+          "away_score": 2,
+          "away": "Marokko"
+        },
+        {
+          "home": "Qatar",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Sveits"
+        },
+        {
+          "home": "Elfenbenskysten",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Ecuador"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Japan"
+        },
+        {
+          "home": "Sverige",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Tunisia"
+        },
+        {
+          "home": "Saudi-Arabia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Uruguay"
+        },
+        {
+          "home": "Spania",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Iran",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "New Zealand"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Egypt"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Irak",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Norge"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 3,
+          "away_score": 2,
+          "away": "Algerie"
+        },
+        {
+          "home": "\u00d8sterrike",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Jordan"
+        },
+        {
+          "home": "Ghana",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Panama"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Usbekistan",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Colombia"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "Canada",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Qatar"
+        },
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Marokko"
+        },
+        {
+          "home": "USA",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Australia"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Japan"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Spania",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Egypt"
+        },
+        {
+          "home": "Norge",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "Irak"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 3,
+          "away_score": 2,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Algerie"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Ghana"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Usbekistan"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Brasil"
+        },
+        {
+          "home": "Marokko",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Canada"
+        },
+        {
+          "home": "Bosnia-Hercegovina",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Qatar"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Mexico"
+        },
+        {
+          "home": "S\u00f8r-Afrika",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Cura\u00e7ao",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Tyskland"
+        },
+        {
+          "home": "Japan",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Nederland"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "USA"
+        },
+        {
+          "home": "Paraguay",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Australia"
+        },
+        {
+          "home": "Norge",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Frankrike"
+        },
+        {
+          "home": "Senegal",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Irak"
+        },
+        {
+          "home": "Egypt",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Belgia"
+        },
+        {
+          "home": "Kapp Verde",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 2,
+          "away_score": 3,
+          "away": "Spania"
+        },
+        {
+          "home": "Panama",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "England"
+        },
+        {
+          "home": "Kroatia",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Ghana"
+        },
+        {
+          "home": "Algerie",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Argentina"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 1,
+          "away_score": 4,
+          "away": "Portugal"
+        },
+        {
+          "home": "DR Kongo",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Usbekistan"
+        }
+      ],
+      "round_of_32": [
+        "Tyskland",
+        "Paraguay",
+        "Frankrike",
+        "Japan",
+        "Tsjekkia",
+        "Bosnia-Hercegovina",
+        "Sverige",
+        "Skottland",
+        "Usbekistan",
+        "England",
+        "Spania",
+        "Algerie",
+        "USA",
+        "Sveits",
+        "Belgia",
+        "S\u00f8r-Afrika",
+        "Brasil",
+        "Nederland",
+        "Elfenbenskysten",
+        "Norge",
+        "Mexico",
+        "Marokko",
+        "Kroatia",
+        "Senegal",
+        "Argentina",
+        "Uruguay",
+        "Tyrkia",
+        "Egypt",
+        "Canada",
+        "\u00d8sterrike",
+        "Portugal",
+        "Ecuador"
+      ],
+      "round_of_16": [
+        "Tyskland",
+        "Frankrike",
+        "Bosnia-Hercegovina",
+        "Sverige",
+        "England",
+        "Spania",
+        "Sveits",
+        "Belgia",
+        "Brasil",
+        "Norge",
+        "Marokko",
+        "Kroatia",
+        "Argentina",
+        "Egypt",
+        "\u00d8sterrike",
+        "Portugal"
+      ],
+      "quarter_finals": [
+        "Frankrike",
+        "Sverige",
+        "Spania",
+        "Belgia",
+        "Brasil",
+        "Kroatia",
+        "Argentina",
+        "Portugal"
+      ],
+      "semi_finals": [
+        "Frankrike",
+        "Spania",
+        "Brasil",
+        "Argentina"
+      ],
+      "finals": {
+        "teams": [
+          "Frankrike",
+          "Brasil"
+        ],
+        "scores": [
+          3,
+          1
+        ],
+        "winner": "Frankrike",
+        "winner_score": 3
+      }
+    },
+    "Kunal": {
+      "file": "excel_tips\\Kunal.xlsx",
+      "extraction_date": "2026-06-11T17:08:04.107842",
+      "matches": [
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "S\u00f8r-Korea",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Tsjekkia"
+        },
+        {
+          "home": "Canada",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "USA",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Haiti",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Skottland"
+        },
+        {
+          "home": "Australia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Tyrkia"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Marokko"
+        },
+        {
+          "home": "Qatar",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Sveits"
+        },
+        {
+          "home": "Elfenbenskysten",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Ecuador"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Japan"
+        },
+        {
+          "home": "Sverige",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Tunisia"
+        },
+        {
+          "home": "Saudi-Arabia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Uruguay"
+        },
+        {
+          "home": "Spania",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Iran",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "New Zealand"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Egypt"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Irak",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Norge"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Algerie"
+        },
+        {
+          "home": "\u00d8sterrike",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Jordan"
+        },
+        {
+          "home": "Ghana",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Panama"
+        },
+        {
+          "home": "England",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Usbekistan",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Colombia"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "Canada",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Qatar"
+        },
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Marokko"
+        },
+        {
+          "home": "USA",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Australia"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Japan"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Spania",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Egypt"
+        },
+        {
+          "home": "Norge",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Senegal"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Irak"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Algerie"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Usbekistan"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Brasil"
+        },
+        {
+          "home": "Marokko",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Canada"
+        },
+        {
+          "home": "Bosnia-Hercegovina",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Qatar"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Mexico"
+        },
+        {
+          "home": "S\u00f8r-Afrika",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Cura\u00e7ao",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Tyskland"
+        },
+        {
+          "home": "Japan",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Nederland"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "USA"
+        },
+        {
+          "home": "Paraguay",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Australia"
+        },
+        {
+          "home": "Norge",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Frankrike"
+        },
+        {
+          "home": "Senegal",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Irak"
+        },
+        {
+          "home": "Egypt",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Belgia"
+        },
+        {
+          "home": "Kapp Verde",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Spania"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "England"
+        },
+        {
+          "home": "Kroatia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Ghana"
+        },
+        {
+          "home": "Algerie",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Argentina"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Portugal"
+        },
+        {
+          "home": "DR Kongo",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Usbekistan"
+        }
+      ],
+      "round_of_32": [
+        "Tyskland",
+        "Skottland",
+        "Frankrike",
+        "Sverige",
+        "Tsjekkia",
+        "Canada",
+        "Nederland",
+        "Marokko",
+        "Colombia",
+        "Kroatia",
+        "Spania",
+        "\u00d8sterrike",
+        "Tyrkia",
+        "Algerie",
+        "Belgia",
+        "S\u00f8r-Korea",
+        "Brasil",
+        "Japan",
+        "Ecuador",
+        "Norge",
+        "Mexico",
+        "Elfenbenskysten",
+        "England",
+        "Senegal",
+        "Argentina",
+        "Uruguay",
+        "USA",
+        "Egypt",
+        "Sveits",
+        "Iran",
+        "Portugal",
+        "Ghana"
+      ],
+      "round_of_16": [
+        "Tyskland",
+        "Frankrike",
+        "Canada",
+        "Nederland",
+        "Kroatia",
+        "Spania",
+        "Tyrkia",
+        "Belgia",
+        "Brasil",
+        "Norge",
+        "Mexico",
+        "England",
+        "Argentina",
+        "Egypt",
+        "Sveits",
+        "Portugal"
+      ],
+      "quarter_finals": [
+        "Frankrike",
+        "Nederland",
+        "Spania",
+        "Belgia",
+        "Brasil",
+        "England",
+        "Argentina",
+        "Portugal"
+      ],
+      "semi_finals": [
+        "Frankrike",
+        "Spania",
+        "Brasil",
+        "Portugal"
+      ],
+      "finals": {
+        "teams": [
+          "Spania",
+          "Brasil"
+        ],
+        "scores": [
+          1,
+          0
+        ],
+        "winner": "Spania",
+        "winner_score": 1
+      }
+    },
+    "Magnus": {
+      "file": "excel_tips\\Magnus.xlsx",
+      "extraction_date": "2026-06-11T17:08:04.183667",
+      "matches": [
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "S\u00f8r-Korea",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Tsjekkia"
+        },
+        {
+          "home": "Canada",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "USA",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Haiti",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Skottland"
+        },
+        {
+          "home": "Australia",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Tyrkia"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Marokko"
+        },
+        {
+          "home": "Qatar",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Sveits"
+        },
+        {
+          "home": "Elfenbenskysten",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Ecuador"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Japan"
+        },
+        {
+          "home": "Sverige",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Tunisia"
+        },
+        {
+          "home": "Saudi-Arabia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Uruguay"
+        },
+        {
+          "home": "Spania",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Iran",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "New Zealand"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Egypt"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Senegal"
+        },
+        {
+          "home": "Irak",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Norge"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Algerie"
+        },
+        {
+          "home": "\u00d8sterrike",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Jordan"
+        },
+        {
+          "home": "Ghana",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Panama"
+        },
+        {
+          "home": "England",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Usbekistan",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Colombia"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "Canada",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Qatar"
+        },
+        {
+          "home": "Mexico",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Marokko"
+        },
+        {
+          "home": "USA",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Australia"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Japan"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Spania",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Egypt"
+        },
+        {
+          "home": "Norge",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Senegal"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Irak"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Algerie"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Usbekistan"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Brasil"
+        },
+        {
+          "home": "Marokko",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Canada"
+        },
+        {
+          "home": "Bosnia-Hercegovina",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Qatar"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Mexico"
+        },
+        {
+          "home": "S\u00f8r-Afrika",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Cura\u00e7ao",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Tyskland"
+        },
+        {
+          "home": "Japan",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Nederland"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "USA"
+        },
+        {
+          "home": "Paraguay",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Australia"
+        },
+        {
+          "home": "Norge",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Frankrike"
+        },
+        {
+          "home": "Senegal",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Irak"
+        },
+        {
+          "home": "Egypt",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Belgia"
+        },
+        {
+          "home": "Kapp Verde",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Spania"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "England"
+        },
+        {
+          "home": "Kroatia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Algerie",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Argentina"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Portugal"
+        },
+        {
+          "home": "DR Kongo",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Usbekistan"
+        }
+      ],
+      "round_of_32": [
+        "Tyskland",
+        "Skottland",
+        "Frankrike",
+        "Sverige",
+        "S\u00f8r-Korea",
+        "Canada",
+        "Nederland",
+        "Marokko",
+        "Colombia",
+        "Kroatia",
+        "Spania",
+        "\u00d8sterrike",
+        "Tyrkia",
+        "Bosnia-Hercegovina",
+        "Belgia",
+        "Tsjekkia",
+        "Brasil",
+        "Japan",
+        "Ecuador",
+        "Senegal",
+        "Mexico",
+        "Elfenbenskysten",
+        "England",
+        "Norge",
+        "Argentina",
+        "Uruguay",
+        "Paraguay",
+        "Iran",
+        "Sveits",
+        "Egypt",
+        "Portugal",
+        "Panama"
+      ],
+      "round_of_16": [
+        "Tyskland",
+        "Frankrike",
+        "S\u00f8r-Korea",
+        "Nederland",
+        "Colombia",
+        "Spania",
+        "Tyrkia",
+        "Belgia",
+        "Brasil",
+        "Senegal",
+        "Mexico",
+        "England",
+        "Argentina",
+        "Iran",
+        "Sveits",
+        "Portugal"
+      ],
+      "quarter_finals": [
+        "Frankrike",
+        "Nederland",
+        "Colombia",
+        "Belgia",
+        "Brasil",
+        "England",
+        "Argentina",
+        "Portugal"
+      ],
+      "semi_finals": [
+        "Frankrike",
+        "Colombia",
+        "Brasil",
+        "Argentina"
+      ],
+      "finals": {
+        "teams": [
+          "Frankrike",
+          "Argentina"
+        ],
+        "scores": [
+          1,
+          2
+        ],
+        "winner": "Argentina",
+        "winner_score": 2
+      }
+    },
     "Marius": {
       "file": "excel_tips\\Marius.xlsx",
-      "extraction_date": "2026-06-07T17:24:07.015377",
+      "extraction_date": "2026-06-11T17:08:04.246269",
       "matches": [
         {
           "home": "Mexico",
@@ -3628,9 +8290,527 @@
         "winner_score": 2
       }
     },
+    "Mick": {
+      "file": "excel_tips\\Mick.xlsx",
+      "extraction_date": "2026-06-11T17:08:04.310135",
+      "matches": [
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "S\u00f8r-Korea",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Tsjekkia"
+        },
+        {
+          "home": "Canada",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "USA",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Haiti",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Skottland"
+        },
+        {
+          "home": "Australia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Tyrkia"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "Marokko"
+        },
+        {
+          "home": "Qatar",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Sveits"
+        },
+        {
+          "home": "Elfenbenskysten",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Ecuador"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 5,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Japan"
+        },
+        {
+          "home": "Sverige",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Tunisia"
+        },
+        {
+          "home": "Saudi-Arabia",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Uruguay"
+        },
+        {
+          "home": "Spania",
+          "home_score": 5,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Iran",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "New Zealand"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Egypt"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Irak",
+          "home_score": 0,
+          "away_score": 4,
+          "away": "Norge"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Algerie"
+        },
+        {
+          "home": "\u00d8sterrike",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Jordan"
+        },
+        {
+          "home": "Ghana",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Panama"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Usbekistan",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Colombia"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "Canada",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Qatar"
+        },
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 5,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Marokko"
+        },
+        {
+          "home": "USA",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Australia"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Japan"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Spania",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Egypt"
+        },
+        {
+          "home": "Norge",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Senegal"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Irak"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Algerie"
+        },
+        {
+          "home": "England",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Panama",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Usbekistan"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Brasil"
+        },
+        {
+          "home": "Marokko",
+          "home_score": 4,
+          "away_score": 1,
+          "away": "Haiti"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Canada"
+        },
+        {
+          "home": "Bosnia-Hercegovina",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Qatar"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Mexico"
+        },
+        {
+          "home": "S\u00f8r-Afrika",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Cura\u00e7ao",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Tyskland"
+        },
+        {
+          "home": "Japan",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 1,
+          "away_score": 3,
+          "away": "Nederland"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "USA"
+        },
+        {
+          "home": "Paraguay",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Australia"
+        },
+        {
+          "home": "Norge",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Frankrike"
+        },
+        {
+          "home": "Senegal",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Irak"
+        },
+        {
+          "home": "Egypt",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Belgia"
+        },
+        {
+          "home": "Kapp Verde",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Spania"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "England"
+        },
+        {
+          "home": "Kroatia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Algerie",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Argentina"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Portugal"
+        },
+        {
+          "home": "DR Kongo",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Usbekistan"
+        }
+      ],
+      "round_of_32": [
+        "Tyskland",
+        "Paraguay",
+        "Frankrike",
+        "Japan",
+        "S\u00f8r-Korea",
+        "Canada",
+        "Nederland",
+        "Marokko",
+        "Colombia",
+        "Kroatia",
+        "Spania",
+        "\u00d8sterrike",
+        "USA",
+        "Bosnia-Hercegovina",
+        "Belgia",
+        "Algerie",
+        "Brasil",
+        "Sverige",
+        "Ecuador",
+        "Norge",
+        "Mexico",
+        "Skottland",
+        "England",
+        "Senegal",
+        "Argentina",
+        "Uruguay",
+        "Tyrkia",
+        "Iran",
+        "Sveits",
+        "Egypt",
+        "Portugal",
+        "Elfenbenskysten"
+      ],
+      "round_of_16": [
+        "Tyskland",
+        "Frankrike",
+        "S\u00f8r-Korea",
+        "Nederland",
+        "Kroatia",
+        "Spania",
+        "USA",
+        "Belgia",
+        "Brasil",
+        "Norge",
+        "Mexico",
+        "England",
+        "Argentina",
+        "Tyrkia",
+        "Sveits",
+        "Portugal"
+      ],
+      "quarter_finals": [
+        "Tyskland",
+        "Nederland",
+        "Spania",
+        "Belgia",
+        "Norge",
+        "England",
+        "Argentina",
+        "Portugal"
+      ],
+      "semi_finals": [
+        "Tyskland",
+        "Spania",
+        "Norge",
+        "Argentina"
+      ],
+      "finals": {
+        "teams": [
+          "Spania",
+          "Norge"
+        ],
+        "scores": [
+          1,
+          2
+        ],
+        "winner": "Norge",
+        "winner_score": 2
+      }
+    },
     "Mohammad": {
       "file": "excel_tips\\Mohammad.xlsx",
-      "extraction_date": "2026-06-07T17:24:07.076160",
+      "extraction_date": "2026-06-11T17:08:04.382275",
       "matches": [
         {
           "home": "Mexico",
@@ -4148,7 +9328,7 @@
     },
     "Oyvind": {
       "file": "excel_tips\\Oyvind.xlsx",
-      "extraction_date": "2026-06-07T17:24:07.154974",
+      "extraction_date": "2026-06-11T17:08:04.441405",
       "matches": [
         {
           "home": "Mexico",
@@ -4666,7 +9846,7 @@
     },
     "Roy": {
       "file": "excel_tips\\Roy.xlsx",
-      "extraction_date": "2026-06-07T17:24:07.218086",
+      "extraction_date": "2026-06-11T17:08:04.499563",
       "matches": [
         {
           "home": "Mexico",
@@ -5184,7 +10364,7 @@
     },
     "Runa": {
       "file": "excel_tips\\Runa.xlsx",
-      "extraction_date": "2026-06-07T17:24:07.284789",
+      "extraction_date": "2026-06-11T17:08:04.572120",
       "matches": [
         {
           "home": "Mexico",
@@ -5702,7 +10882,7 @@
     },
     "Sandra": {
       "file": "excel_tips\\Sandra.xlsx",
-      "extraction_date": "2026-06-07T17:24:07.356383",
+      "extraction_date": "2026-06-11T17:08:04.629422",
       "matches": [
         {
           "home": "Mexico",
@@ -6209,6 +11389,524 @@
         "teams": [
           "Spania",
           "Argentina"
+        ],
+        "scores": [
+          1,
+          0
+        ],
+        "winner": "Spania",
+        "winner_score": 1
+      }
+    },
+    "Yngve": {
+      "file": "excel_tips\\Yngve.xlsx",
+      "extraction_date": "2026-06-11T17:08:04.700691",
+      "matches": [
+        {
+          "home": "Mexico",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "S\u00f8r-Korea",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Tsjekkia"
+        },
+        {
+          "home": "Canada",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "USA",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Haiti",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Skottland"
+        },
+        {
+          "home": "Australia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Tyrkia"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Marokko"
+        },
+        {
+          "home": "Qatar",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Sveits"
+        },
+        {
+          "home": "Elfenbenskysten",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Ecuador"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Japan"
+        },
+        {
+          "home": "Sverige",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Tunisia"
+        },
+        {
+          "home": "Saudi-Arabia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Uruguay"
+        },
+        {
+          "home": "Spania",
+          "home_score": 5,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Iran",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "New Zealand"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Egypt"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Senegal"
+        },
+        {
+          "home": "Irak",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Norge"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Algerie"
+        },
+        {
+          "home": "\u00d8sterrike",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Jordan"
+        },
+        {
+          "home": "Ghana",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Panama"
+        },
+        {
+          "home": "England",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Usbekistan",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Colombia"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 0,
+          "away_score": 0,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "Canada",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Qatar"
+        },
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Marokko"
+        },
+        {
+          "home": "USA",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Australia"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Japan"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 4,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Spania",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Egypt"
+        },
+        {
+          "home": "Norge",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Senegal"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Irak"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Algerie"
+        },
+        {
+          "home": "England",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Ghana"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Usbekistan"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Brasil"
+        },
+        {
+          "home": "Marokko",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Haiti"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Canada"
+        },
+        {
+          "home": "Bosnia-Hercegovina",
+          "home_score": 0,
+          "away_score": 0,
+          "away": "Qatar"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Mexico"
+        },
+        {
+          "home": "S\u00f8r-Afrika",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Cura\u00e7ao",
+          "home_score": 0,
+          "away_score": 3,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Tyskland"
+        },
+        {
+          "home": "Japan",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Nederland"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "USA"
+        },
+        {
+          "home": "Paraguay",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Australia"
+        },
+        {
+          "home": "Norge",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Frankrike"
+        },
+        {
+          "home": "Senegal",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Irak"
+        },
+        {
+          "home": "Egypt",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Belgia"
+        },
+        {
+          "home": "Kapp Verde",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Spania"
+        },
+        {
+          "home": "Panama",
+          "home_score": 0,
+          "away_score": 4,
+          "away": "England"
+        },
+        {
+          "home": "Kroatia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Ghana"
+        },
+        {
+          "home": "Algerie",
+          "home_score": 0,
+          "away_score": 0,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Argentina"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Portugal"
+        },
+        {
+          "home": "DR Kongo",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Usbekistan"
+        }
+      ],
+      "round_of_32": [
+        "Tyskland",
+        "Skottland",
+        "Frankrike",
+        "USA",
+        "S\u00f8r-Korea",
+        "Canada",
+        "Nederland",
+        "Marokko",
+        "Portugal",
+        "Ghana",
+        "Spania",
+        "\u00d8sterrike",
+        "Australia",
+        "Senegal",
+        "Belgia",
+        "Saudi-Arabia",
+        "Brasil",
+        "Japan",
+        "Ecuador",
+        "Norge",
+        "Mexico",
+        "Elfenbenskysten",
+        "England",
+        "DR Kongo",
+        "Argentina",
+        "Uruguay",
+        "Paraguay",
+        "Iran",
+        "Sveits",
+        "Algerie",
+        "Colombia",
+        "Kroatia"
+      ],
+      "round_of_16": [
+        "Tyskland",
+        "Frankrike",
+        "S\u00f8r-Korea",
+        "Marokko",
+        "Portugal",
+        "Spania",
+        "Senegal",
+        "Belgia",
+        "Brasil",
+        "Norge",
+        "Mexico",
+        "England",
+        "Argentina",
+        "Iran",
+        "Sveits",
+        "Colombia"
+      ],
+      "quarter_finals": [
+        "Frankrike",
+        "Marokko",
+        "Spania",
+        "Senegal",
+        "Brasil",
+        "England",
+        "Argentina",
+        "Colombia"
+      ],
+      "semi_finals": [
+        "Frankrike",
+        "Spania",
+        "Brasil",
+        "Argentina"
+      ],
+      "finals": {
+        "teams": [
+          "Spania",
+          "Brasil"
         ],
         "scores": [
           1,
