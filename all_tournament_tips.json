@@ -1,10 +1,10 @@
 {
-  "extraction_date": "2026-06-11T17:08:02.900981",
-  "files_processed": 23,
+  "extraction_date": "2026-06-11T22:07:35.967018",
+  "files_processed": 24,
   "predictions": {
     "Anders": {
       "file": "excel_tips\\Anders.xlsx",
-      "extraction_date": "2026-06-11T17:08:03.249720",
+      "extraction_date": "2026-06-11T22:07:36.243804",
       "matches": [
         {
           "home": "Mexico",
@@ -522,7 +522,7 @@
     },
     "Calle": {
       "file": "excel_tips\\Calle.xlsx",
-      "extraction_date": "2026-06-11T17:08:03.315725",
+      "extraction_date": "2026-06-11T22:07:36.306328",
       "matches": [
         {
           "home": "Mexico",
@@ -1031,16 +1031,16 @@
           "England"
         ],
         "scores": [
-          2,
+          3,
           2
         ],
-        "winner": "England",
-        "winner_score": 2
+        "winner": "Spania",
+        "winner_score": 3
       }
     },
     "Christian": {
       "file": "excel_tips\\Christian.xlsx",
-      "extraction_date": "2026-06-11T17:08:03.394549",
+      "extraction_date": "2026-06-11T22:07:36.378305",
       "matches": [
         {
           "home": "Mexico",
@@ -1558,7 +1558,7 @@
     },
     "Eivind": {
       "file": "excel_tips\\Eivind.xlsx",
-      "extraction_date": "2026-06-11T17:08:03.457590",
+      "extraction_date": "2026-06-11T22:07:36.441311",
       "matches": [
         {
           "home": "Mexico",
@@ -2076,7 +2076,7 @@
     },
     "ErikH": {
       "file": "excel_tips\\ErikH.xlsx",
-      "extraction_date": "2026-06-11T17:08:03.521596",
+      "extraction_date": "2026-06-11T22:07:36.503665",
       "matches": [
         {
           "home": "Mexico",
@@ -2594,7 +2594,7 @@
     },
     "Espen": {
       "file": "excel_tips\\Espen.xlsx",
-      "extraction_date": "2026-06-11T17:08:03.595999",
+      "extraction_date": "2026-06-11T22:07:36.577719",
       "matches": [
         {
           "home": "Mexico",
@@ -3112,7 +3112,7 @@
     },
     "Haakon": {
       "file": "excel_tips\\Haakon.xlsx",
-      "extraction_date": "2026-06-11T17:08:03.659032",
+      "extraction_date": "2026-06-11T22:07:36.636617",
       "matches": [
         {
           "home": "Mexico",
@@ -3621,16 +3621,16 @@
           "England"
         ],
         "scores": [
-          1,
-          1
+          5,
+          4
         ],
-        "winner": "England",
-        "winner_score": 1
+        "winner": "Spania",
+        "winner_score": 5
       }
     },
     "Haavard": {
       "file": "excel_tips\\Haavard.xlsx",
-      "extraction_date": "2026-06-11T17:08:03.719032",
+      "extraction_date": "2026-06-11T22:07:36.697042",
       "matches": [
         {
           "home": "Mexico",
@@ -4148,7 +4148,7 @@
     },
     "Helene": {
       "file": "excel_tips\\Helene.xlsx",
-      "extraction_date": "2026-06-11T17:08:03.788557",
+      "extraction_date": "2026-06-11T22:07:36.768729",
       "matches": [
         {
           "home": "Mexico",
@@ -4666,7 +4666,7 @@
     },
     "Johannes": {
       "file": "excel_tips\\Johannes.xlsx",
-      "extraction_date": "2026-06-11T17:08:03.850093",
+      "extraction_date": "2026-06-11T22:07:36.830008",
       "matches": [
         {
           "home": "Mexico",
@@ -5175,16 +5175,16 @@
           "Argentina"
         ],
         "scores": [
-          1,
+          2,
           1
         ],
-        "winner": "Argentina",
-        "winner_score": 1
+        "winner": "Spania",
+        "winner_score": 2
       }
     },
     "Katrine": {
       "file": "excel_tips\\Katrine.xlsx",
-      "extraction_date": "2026-06-11T17:08:03.909112",
+      "extraction_date": "2026-06-11T22:07:36.891469",
       "matches": [
         {
           "home": "Mexico",
@@ -5702,7 +5702,7 @@
     },
     "Krishnan": {
       "file": "excel_tips\\Krishnan.xlsx",
-      "extraction_date": "2026-06-11T17:08:03.979473",
+      "extraction_date": "2026-06-11T22:07:36.963260",
       "matches": [
         {
           "home": "Mexico",
@@ -6220,7 +6220,7 @@
     },
     "KristineB": {
       "file": "excel_tips\\KristineB.xlsx",
-      "extraction_date": "2026-06-11T17:08:04.042576",
+      "extraction_date": "2026-06-11T22:07:37.023694",
       "matches": [
         {
           "home": "Mexico",
@@ -6738,7 +6738,7 @@
     },
     "Kunal": {
       "file": "excel_tips\\Kunal.xlsx",
-      "extraction_date": "2026-06-11T17:08:04.107842",
+      "extraction_date": "2026-06-11T22:07:37.086873",
       "matches": [
         {
           "home": "Mexico",
@@ -7256,7 +7256,7 @@
     },
     "Magnus": {
       "file": "excel_tips\\Magnus.xlsx",
-      "extraction_date": "2026-06-11T17:08:04.183667",
+      "extraction_date": "2026-06-11T22:07:37.162901",
       "matches": [
         {
           "home": "Mexico",
@@ -7774,7 +7774,7 @@
     },
     "Marius": {
       "file": "excel_tips\\Marius.xlsx",
-      "extraction_date": "2026-06-11T17:08:04.246269",
+      "extraction_date": "2026-06-11T22:07:37.223901",
       "matches": [
         {
           "home": "Mexico",
@@ -8292,7 +8292,7 @@
     },
     "Mick": {
       "file": "excel_tips\\Mick.xlsx",
-      "extraction_date": "2026-06-11T17:08:04.310135",
+      "extraction_date": "2026-06-11T22:07:37.285421",
       "matches": [
         {
           "home": "Mexico",
@@ -8810,7 +8810,7 @@
     },
     "Mohammad": {
       "file": "excel_tips\\Mohammad.xlsx",
-      "extraction_date": "2026-06-11T17:08:04.382275",
+      "extraction_date": "2026-06-11T22:07:37.356009",
       "matches": [
         {
           "home": "Mexico",
@@ -9328,7 +9328,7 @@
     },
     "Oyvind": {
       "file": "excel_tips\\Oyvind.xlsx",
-      "extraction_date": "2026-06-11T17:08:04.441405",
+      "extraction_date": "2026-06-11T22:07:37.417901",
       "matches": [
         {
           "home": "Mexico",
@@ -9846,7 +9846,7 @@
     },
     "Roy": {
       "file": "excel_tips\\Roy.xlsx",
-      "extraction_date": "2026-06-11T17:08:04.499563",
+      "extraction_date": "2026-06-11T22:07:37.478434",
       "matches": [
         {
           "home": "Mexico",
@@ -10364,7 +10364,7 @@
     },
     "Runa": {
       "file": "excel_tips\\Runa.xlsx",
-      "extraction_date": "2026-06-11T17:08:04.572120",
+      "extraction_date": "2026-06-11T22:07:37.553160",
       "matches": [
         {
           "home": "Mexico",
@@ -10882,7 +10882,7 @@
     },
     "Sandra": {
       "file": "excel_tips\\Sandra.xlsx",
-      "extraction_date": "2026-06-11T17:08:04.629422",
+      "extraction_date": "2026-06-11T22:07:37.615160",
       "matches": [
         {
           "home": "Mexico",
@@ -11398,9 +11398,527 @@
         "winner_score": 1
       }
     },
+    "Silje": {
+      "file": "excel_tips\\Silje.xlsx",
+      "extraction_date": "2026-06-11T22:07:37.688677",
+      "matches": [
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "S\u00f8r-Korea",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Tsjekkia"
+        },
+        {
+          "home": "Canada",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "USA",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Haiti",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Skottland"
+        },
+        {
+          "home": "Australia",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Tyrkia"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Marokko"
+        },
+        {
+          "home": "Qatar",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Sveits"
+        },
+        {
+          "home": "Elfenbenskysten",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Ecuador"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Japan"
+        },
+        {
+          "home": "Sverige",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Tunisia"
+        },
+        {
+          "home": "Saudi-Arabia",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Uruguay"
+        },
+        {
+          "home": "Spania",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Iran",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "New Zealand"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Egypt"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Senegal"
+        },
+        {
+          "home": "Irak",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Norge"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Algerie"
+        },
+        {
+          "home": "\u00d8sterrike",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Jordan"
+        },
+        {
+          "home": "Ghana",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Panama"
+        },
+        {
+          "home": "England",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Usbekistan",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Colombia"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "S\u00f8r-Afrika"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Bosnia-Hercegovina"
+        },
+        {
+          "home": "Canada",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Qatar"
+        },
+        {
+          "home": "Mexico",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Brasil",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Haiti"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Marokko"
+        },
+        {
+          "home": "USA",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Australia"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Paraguay"
+        },
+        {
+          "home": "Tyskland",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Cura\u00e7ao"
+        },
+        {
+          "home": "Nederland",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 3,
+          "away_score": 0,
+          "away": "Japan"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 3,
+          "away_score": 1,
+          "away": "Kapp Verde"
+        },
+        {
+          "home": "Spania",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Belgia",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Egypt"
+        },
+        {
+          "home": "Norge",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Senegal"
+        },
+        {
+          "home": "Frankrike",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Irak"
+        },
+        {
+          "home": "Argentina",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Algerie"
+        },
+        {
+          "home": "England",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Ghana"
+        },
+        {
+          "home": "Panama",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Kroatia"
+        },
+        {
+          "home": "Portugal",
+          "home_score": 1,
+          "away_score": 0,
+          "away": "Usbekistan"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 0,
+          "away_score": 1,
+          "away": "DR Kongo"
+        },
+        {
+          "home": "Skottland",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Brasil"
+        },
+        {
+          "home": "Marokko",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Haiti"
+        },
+        {
+          "home": "Sveits",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Canada"
+        },
+        {
+          "home": "Bosnia-Hercegovina",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Qatar"
+        },
+        {
+          "home": "Tsjekkia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Mexico"
+        },
+        {
+          "home": "S\u00f8r-Afrika",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "S\u00f8r-Korea"
+        },
+        {
+          "home": "Cura\u00e7ao",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Elfenbenskysten"
+        },
+        {
+          "home": "Ecuador",
+          "home_score": 2,
+          "away_score": 0,
+          "away": "Tyskland"
+        },
+        {
+          "home": "Japan",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Sverige"
+        },
+        {
+          "home": "Tunisia",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Nederland"
+        },
+        {
+          "home": "Tyrkia",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "USA"
+        },
+        {
+          "home": "Paraguay",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Australia"
+        },
+        {
+          "home": "Norge",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Frankrike"
+        },
+        {
+          "home": "Senegal",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Irak"
+        },
+        {
+          "home": "Egypt",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Iran"
+        },
+        {
+          "home": "New Zealand",
+          "home_score": 0,
+          "away_score": 2,
+          "away": "Belgia"
+        },
+        {
+          "home": "Kapp Verde",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Saudi-Arabia"
+        },
+        {
+          "home": "Uruguay",
+          "home_score": 2,
+          "away_score": 1,
+          "away": "Spania"
+        },
+        {
+          "home": "Panama",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "England"
+        },
+        {
+          "home": "Kroatia",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Ghana"
+        },
+        {
+          "home": "Algerie",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "\u00d8sterrike"
+        },
+        {
+          "home": "Jordan",
+          "home_score": 1,
+          "away_score": 2,
+          "away": "Argentina"
+        },
+        {
+          "home": "Colombia",
+          "home_score": 2,
+          "away_score": 2,
+          "away": "Portugal"
+        },
+        {
+          "home": "DR Kongo",
+          "home_score": 1,
+          "away_score": 1,
+          "away": "Usbekistan"
+        }
+      ],
+      "round_of_32": [
+        "Tyskland",
+        "Tyrkia",
+        "Frankrike",
+        "Sverige",
+        "Tsjekkia",
+        "Qatar",
+        "Nederland",
+        "Haiti",
+        "DR Kongo",
+        "England",
+        "Uruguay",
+        "Argentina",
+        "Australia",
+        "Jordan",
+        "Belgia",
+        "Saudi-Arabia",
+        "Brasil",
+        "Tunisia",
+        "Elfenbenskysten",
+        "Norge",
+        "Mexico",
+        "Ecuador",
+        "Ghana",
+        "Colombia",
+        "\u00d8sterrike",
+        "Spania",
+        "USA",
+        "Iran",
+        "Canada",
+        "Egypt",
+        "Portugal",
+        "Panama"
+      ],
+      "round_of_16": [
+        "Tyskland",
+        "Frankrike",
+        "Qatar",
+        "Nederland",
+        "England",
+        "Argentina",
+        "Australia",
+        "Belgia",
+        "Brasil",
+        "Norge",
+        "Mexico",
+        "Ghana",
+        "Spania",
+        "USA",
+        "Egypt",
+        "Portugal"
+      ],
+      "quarter_finals": [
+        "Frankrike",
+        "Nederland",
+        "Argentina",
+        "Belgia",
+        "Norge",
+        "Mexico",
+        "Spania",
+        "Portugal"
+      ],
+      "semi_finals": [
+        "Frankrike",
+        "Argentina",
+        "Norge",
+        "Portugal"
+      ],
+      "finals": {
+        "teams": [
+          "Frankrike",
+          "Norge"
+        ],
+        "scores": [
+          1,
+          2
+        ],
+        "winner": "Norge",
+        "winner_score": 2
+      }
+    },
     "Yngve": {
       "file": "excel_tips\\Yngve.xlsx",
-      "extraction_date": "2026-06-11T17:08:04.700691",
+      "extraction_date": "2026-06-11T22:07:37.748413",
       "matches": [
         {
           "home": "Mexico",
