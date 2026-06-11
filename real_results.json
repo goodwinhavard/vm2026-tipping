@@ -40,7 +40,7 @@
           "home": "Australia",
           "home_score": 999,
           "away_score": 999,
-          "away": "Turkey"
+          "away": "Tyrkia"
         },
         {
           "home": "Brasil",
@@ -52,43 +52,43 @@
           "home": "Qatar",
           "home_score": 999,
           "away_score": 999,
-          "away": "Switzerland"
+          "away": "Sveits"
         },
         {
-          "home": "Ivory Coast",
+          "home": "Elfenbenskysten",
           "home_score": 999,
           "away_score": 999,
           "away": "Ecuador"
         },
         {
-          "home": "Germany",
+          "home": "Tyskland",
           "home_score": 999,
           "away_score": 999,
           "away": "Cura\u00e7ao"
         },
         {
-          "home": "Netherlands",
+          "home": "Nederland",
           "home_score": 0,
           "away_score": 999,
           "away": "Japan"
         },
         {
-          "home": "Sweden",
+          "home": "Sverige",
           "home_score": 999,
           "away_score": 999,
           "away": "Tunisia"
         },
         {
-          "home": "Saudi Arabia",
+          "home": "Saudi-Arabia",
           "home_score": 999,
           "away_score": 999,
           "away": "Uruguay"
         },
         {
-          "home": "Spain",
+          "home": "Spania",
           "home_score": 999,
           "away_score": 999,
-          "away": "Cape Verde"
+          "away": "Kapp Verde"
         },
         {
           "home": "Iran",
@@ -97,22 +97,22 @@
           "away": "New Zealand"
         },
         {
-          "home": "Belgium",
+          "home": "Belgia",
           "home_score": 999,
           "away_score": 999,
           "away": "Egypt"
         },
         {
-          "home": "France",
+          "home": "Frankrike",
           "home_score": 0,
           "away_score": 999,
           "away": "Senegal"
         },
         {
-          "home": "Iraq",
+          "home": "Irak",
           "home_score": 999,
           "away_score": 999,
-          "away": "Norway"
+          "away": "Norge"
         },
         {
           "home": "Argentina",
@@ -121,7 +121,7 @@
           "away": "Algeria"
         },
         {
-          "home": "Austria",
+          "home": "\u00d8sterrike",
           "home_score": 999,
           "away_score": 999,
           "away": "Jordan"
@@ -136,16 +136,16 @@
           "home": "England",
           "home_score": 999,
           "away_score": 999,
-          "away": "Croatia"
+          "away": "Kroatia"
         },
         {
           "home": "Portugal",
           "home_score": 999,
           "away_score": 999,
-          "away": "DR Congo"
+          "away": "DR Kongo"
         },
         {
-          "home": "Uzbekistan",
+          "home": "Usbekistan",
           "home_score": 999,
           "away_score": 999,
           "away": "Colombia"
@@ -157,7 +157,7 @@
           "away": "S\u00f8r-Afrika"
         },
         {
-          "home": "Switzerland",
+          "home": "Sveits",
           "home_score": 999,
           "away_score": 999,
           "away": "Bosnia-Hercegovina"
@@ -193,16 +193,16 @@
           "away": "Australia"
         },
         {
-          "home": "Turkey",
+          "home": "Tyrkia",
           "home_score": 999,
           "away_score": 999,
           "away": "Paraguay"
         },
         {
-          "home": "Germany",
+          "home": "Tyskland",
           "home_score": 999,
           "away_score": 999,
-          "away": "Ivory Coast"
+          "away": "Elfenbenskysten"
         },
         {
           "home": "Ecuador",
@@ -211,10 +211,10 @@
           "away": "Cura\u00e7ao"
         },
         {
-          "home": "Netherlands",
+          "home": "Nederland",
           "home_score": 0,
           "away_score": 999,
-          "away": "Sweden"
+          "away": "Sverige"
         },
         {
           "home": "Tunisia",
@@ -226,16 +226,16 @@
           "home": "Uruguay",
           "home_score": 0,
           "away_score": 999,
-          "away": "Cape Verde"
+          "away": "Kapp Verde"
         },
         {
-          "home": "Spain",
+          "home": "Spania",
           "home_score": 0,
           "away_score": 999,
-          "away": "Saudi Arabia"
+          "away": "Saudi-Arabia"
         },
         {
-          "home": "Belgium",
+          "home": "Belgia",
           "home_score": 0,
           "away_score": 999,
           "away": "Iran"
@@ -247,22 +247,22 @@
           "away": "Egypt"
         },
         {
-          "home": "Norway",
+          "home": "Norge",
           "home_score": 999,
           "away_score": 999,
           "away": "Senegal"
         },
         {
-          "home": "France",
+          "home": "Frankrike",
           "home_score": 999,
           "away_score": 999,
-          "away": "Iraq"
+          "away": "Irak"
         },
         {
           "home": "Argentina",
           "home_score": 999,
           "away_score": 999,
-          "away": "Austria"
+          "away": "\u00d8sterrike"
         },
         {
           "home": "Jordan",
@@ -280,19 +280,19 @@
           "home": "Panama",
           "home_score": 999,
           "away_score": 999,
-          "away": "Croatia"
+          "away": "Kroatia"
         },
         {
           "home": "Portugal",
           "home_score": 999,
           "away_score": 999,
-          "away": "Uzbekistan"
+          "away": "Usbekistan"
         },
         {
           "home": "Colombia",
           "home_score": 999,
           "away_score": 999,
-          "away": "DR Congo"
+          "away": "DR Kongo"
         },
         {
           "home": "Skottland",
@@ -307,7 +307,7 @@
           "away": "Haiti"
         },
         {
-          "home": "Switzerland",
+          "home": "Sveits",
           "home_score": 999,
           "away_score": 999,
           "away": "Canada"
@@ -334,28 +334,28 @@
           "home": "Cura\u00e7ao",
           "home_score": 999,
           "away_score": 999,
-          "away": "Ivory Coast"
+          "away": "Elfenbenskysten"
         },
         {
           "home": "Ecuador",
           "home_score": 999,
           "away_score": 999,
-          "away": "Germany"
+          "away": "Tyskland"
         },
         {
           "home": "Japan",
           "home_score": 999,
           "away_score": 999,
-          "away": "Sweden"
+          "away": "Sverige"
         },
         {
           "home": "Tunisia",
           "home_score": 999,
           "away_score": 999,
-          "away": "Netherlands"
+          "away": "Nederland"
         },
         {
-          "home": "Turkey",
+          "home": "Tyrkia",
           "home_score": 999,
           "away_score": 999,
           "away": "USA"
@@ -367,16 +367,16 @@
           "away": "Australia"
         },
         {
-          "home": "Norway",
+          "home": "Norge",
           "home_score": 999,
           "away_score": 999,
-          "away": "France"
+          "away": "Frankrike"
         },
         {
           "home": "Senegal",
           "home_score": 999,
           "away_score": 999,
-          "away": "Iraq"
+          "away": "Irak"
         },
         {
           "home": "Egypt",
@@ -388,19 +388,19 @@
           "home": "New Zealand",
           "home_score": 999,
           "away_score": 999,
-          "away": "Belgium"
+          "away": "Belgia"
         },
         {
-          "home": "Cape Verde",
+          "home": "Kapp Verde",
           "home_score": 999,
           "away_score": 999,
-          "away": "Saudi Arabia"
+          "away": "Saudi-Arabia"
         },
         {
           "home": "Uruguay",
           "home_score": 999,
           "away_score": 999,
-          "away": "Spain"
+          "away": "Spania"
         },
         {
           "home": "Panama",
@@ -409,7 +409,7 @@
           "away": "England"
         },
         {
-          "home": "Croatia",
+          "home": "Kroatia",
           "home_score": 999,
           "away_score": 999,
           "away": "Ghana"
@@ -418,7 +418,7 @@
           "home": "Algeria",
           "home_score": 999,
           "away_score": 999,
-          "away": "Austria"
+          "away": "\u00d8sterrike"
         },
         {
           "home": "Jordan",
@@ -433,10 +433,10 @@
           "away": "Portugal"
         },
         {
-          "home": "DR Congo",
+          "home": "DR Kongo",
           "home_score": 999,
           "away_score": 999,
-          "away": "Uzbekistan"
+          "away": "Usbekistan"
         }
       ],
       "round_of_32": [
