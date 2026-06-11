@@ -54,27 +54,50 @@ st.title("VM 2026 – Resultater oversikt")
 
 # ── Group Stage ──────────────────────────────────────────────────────────────
 st.header("Gruppespill – 72 kamper")
+st.markdown(
+    '<span style="color:green">■ Riktig resultat (3p)</span> &nbsp;'
+    '<span style="color:blue">■ Riktig vinner, feil resultat (1p)</span> &nbsp;'
+    '<span style="color:red">■ Feil vinner (0p)</span>',
+    unsafe_allow_html=True
+)
 
 group_rows = []
+group_color_rows = []
+
 for i, actual_match in enumerate(actual['matches']):
     played = actual_match['home_score'] != 999 and actual_match['away_score'] != 999
     result = f"{actual_match['home_score']}–{actual_match['away_score']}" if played else "–"
-    row = {
-        '#': i + 1,
-        'Kamp': f"{actual_match['home']} vs {actual_match['away']}",
-        'Resultat': result,
-    }
+    row = {'#': i + 1, 'Kamp': f"{actual_match['home']} vs {actual_match['away']}", 'Resultat': result}
+    color_row = {'#': '', 'Kamp': '', 'Resultat': ''}
+
     for person in persons:
+        col = person.title()
         pred_matches = predictions_data['predictions'][person]['matches']
         if i < len(pred_matches):
-            pts = group_stage_points(pred_matches[i], actual_match)
-            row[person.title()] = '' if pts is None else pts
+            pred = pred_matches[i]
+            tip = f"{pred['home_score']}–{pred['away_score']}"
+            pts = group_stage_points(pred, actual_match)
+            if pts is None:
+                color = ''
+            elif pts == 0:
+                color = 'color: red'
+            elif pts == 1:
+                color = 'color: blue'
+            else:
+                color = 'color: green'
+            row[col] = tip
+            color_row[col] = color
         else:
-            row[person.title()] = ''
+            row[col] = ''
+            color_row[col] = ''
+
     group_rows.append(row)
+    group_color_rows.append(color_row)
 
 group_df = pd.DataFrame(group_rows)
-st.dataframe(group_df, use_container_width=True, hide_index=True)
+color_df = pd.DataFrame(group_color_rows)
+styled_group = group_df.style.apply(lambda _: color_df, axis=None)
+st.dataframe(styled_group, use_container_width=True, hide_index=True)
 
 # ── Knockout helper ──────────────────────────────────────────────────────────
 def knockout_table(stage_key, stage_label, points_per_team):

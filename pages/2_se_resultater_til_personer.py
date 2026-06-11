@@ -40,7 +40,9 @@ selected_person = st.selectbox(
     [person.title() for person, _ in sorted_scores]
 )
 
-selected_person_lower = selected_person.lower()
+selected_person_lower = selected_person #.lower()
+
+#print(f"Selected person: {selected_person_lower}")
 
 # Find the person in predictions data
 person_pred = predictions_data['predictions'].get(selected_person_lower, {})
