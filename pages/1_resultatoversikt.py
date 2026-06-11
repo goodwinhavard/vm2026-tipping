@@ -99,61 +99,85 @@ color_df = pd.DataFrame(group_color_rows)
 styled_group = group_df.style.apply(lambda _: color_df, axis=None)
 st.dataframe(styled_group, use_container_width=True, hide_index=True)
 
-# ── Knockout helper ──────────────────────────────────────────────────────────
-def knockout_table(stage_key, stage_label, points_per_team):
-    actual_teams = actual.get(stage_key, [])
-    if not actual_teams:
-        st.info(f"{stage_label}: ingen lag enda.")
+# ── Knockout tips overview ────────────────────────────────────────────────────
+def knockout_tips_overview(stage_key, stage_label):
+    actual_teams = set(actual.get(stage_key, []))
+    all_tips = {p: predictions_data['predictions'][p].get(stage_key, []) for p in persons}
+    max_rows = max((len(t) for t in all_tips.values()), default=0)
+
+    if max_rows == 0:
+        st.info(f"{stage_label}: ingen tips enda.")
         return
 
     rows = []
-    for team in actual_teams:
-        row = {'Lag': team}
+    color_rows = []
+    for i in range(max_rows):
+        row = {'#': i + 1}
+        color_row = {'#': ''}
         for person in persons:
-            person_teams = predictions_data['predictions'][person].get(stage_key, [])
-            row[person.title()] = points_per_team if team in person_teams else 0
+            col = person.title()
+            tips = all_tips[person]
+            team = tips[i] if i < len(tips) else ''
+            row[col] = team
+            color_row[col] = 'background-color: #c6efce' if (team and team in actual_teams) else ''
         rows.append(row)
+        color_rows.append(color_row)
 
     df = pd.DataFrame(rows)
-    st.dataframe(df, use_container_width=True, hide_index=True)
+    color_df = pd.DataFrame(color_rows)
+    styled = df.style.apply(lambda _: color_df, axis=None)
+    st.dataframe(styled, use_container_width=True, hide_index=True)
 
 
 # ── Round of 32 ───────────────────────────────────────────────────────────────
 st.header("Runde av 32")
-knockout_table('round_of_32', 'Runde av 32', KNOCKOUT_POINTS['round_of_32'])
+st.caption("Grønn = riktig lag videre · 2 poeng per riktig lag")
+knockout_tips_overview('round_of_32', 'Runde av 32')
 
 # ── Round of 16 ───────────────────────────────────────────────────────────────
 st.header("Runde av 16")
-knockout_table('round_of_16', 'Runde av 16', KNOCKOUT_POINTS['round_of_16'])
+st.caption("Grønn = riktig lag videre · 4 poeng per riktig lag")
+knockout_tips_overview('round_of_16', 'Runde av 16')
 
 # ── Quarter Finals ────────────────────────────────────────────────────────────
 st.header("Kvartfinaler")
-knockout_table('quarter_finals', 'Kvartfinaler', KNOCKOUT_POINTS['quarter_finals'])
+st.caption("Grønn = riktig lag videre · 8 poeng per riktig lag")
+knockout_tips_overview('quarter_finals', 'Kvartfinaler')
 
 # ── Semi Finals ───────────────────────────────────────────────────────────────
 st.header("Semifinaler")
-knockout_table('semi_finals', 'Semifinaler', KNOCKOUT_POINTS['semi_finals'])
+st.caption("Grønn = riktig lag videre · 16 poeng per riktig lag")
+knockout_tips_overview('semi_finals', 'Semifinaler')
 
 # ── Finals ────────────────────────────────────────────────────────────────────
 st.header("Finale")
+st.caption("Grønn = riktig finalist (32 poeng) / riktig vinner (64 poeng)")
 
-actual_final_teams = actual['finals']['teams']
+actual_final_teams = set(actual['finals'].get('teams', []))
 actual_winner = actual['finals'].get('winner', '')
 
-if actual_final_teams:
-    rows = []
-    for team in actual_final_teams:
-        row = {'Lag': team, 'Rolle': 'Vinner' if team == actual_winner else 'Finalist'}
-        for person in persons:
-            person_final = predictions_data['predictions'][person]['finals']
-            pts = 0
-            if team in person_final.get('teams', []):
-                pts += KNOCKOUT_POINTS['finals_teams']
-            if actual_winner and team == actual_winner and person_final.get('winner') == actual_winner:
-                pts += KNOCKOUT_POINTS['finals_winner']
-            row[person.title()] = pts
-        rows.append(row)
+labels = ['Finalist 1', 'Finalist 2', 'Vinner']
+rows = []
+color_rows = []
+for i, label in enumerate(labels):
+    row = {'Rolle': label}
+    color_row = {'Rolle': ''}
+    for person in persons:
+        col = person.title()
+        person_final = predictions_data['predictions'][person].get('finals', {})
+        if i < 2:
+            teams = person_final.get('teams', [])
+            team = teams[i] if i < len(teams) else ''
+            row[col] = team
+            color_row[col] = 'background-color: #c6efce' if (team and team in actual_final_teams) else ''
+        else:
+            winner = person_final.get('winner', '')
+            row[col] = winner
+            color_row[col] = 'background-color: #c6efce' if (winner and winner == actual_winner) else ''
+    rows.append(row)
+    color_rows.append(color_row)
 
-    st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
-else:
-    st.info("Finale: ingen lag enda.")
+df = pd.DataFrame(rows)
+color_df = pd.DataFrame(color_rows)
+styled = df.style.apply(lambda _: color_df, axis=None)
+st.dataframe(styled, use_container_width=True, hide_index=True)
