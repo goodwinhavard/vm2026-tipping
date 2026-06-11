@@ -131,27 +131,27 @@ def knockout_tips_overview(stage_key, stage_label):
 
 # ── Round of 32 ───────────────────────────────────────────────────────────────
 st.header("Runde av 32")
-st.caption("Grønn = riktig lag videre · 2 poeng per riktig lag")
+st.markdown('<span style="color:green">Grønn = riktig lag videre · 2 poeng per riktig lag</span>', unsafe_allow_html=True)
 knockout_tips_overview('round_of_32', 'Runde av 32')
 
 # ── Round of 16 ───────────────────────────────────────────────────────────────
 st.header("Runde av 16")
-st.caption("Grønn = riktig lag videre · 4 poeng per riktig lag")
+st.markdown('<span style="color:green">Grønn = riktig lag videre · 4 poeng per riktig lag</span>', unsafe_allow_html=True)
 knockout_tips_overview('round_of_16', 'Runde av 16')
 
 # ── Quarter Finals ────────────────────────────────────────────────────────────
 st.header("Kvartfinaler")
-st.caption("Grønn = riktig lag videre · 8 poeng per riktig lag")
+st.markdown('<span style="color:green">Grønn = riktig lag videre · 8 poeng per riktig lag</span>', unsafe_allow_html=True)
 knockout_tips_overview('quarter_finals', 'Kvartfinaler')
 
 # ── Semi Finals ───────────────────────────────────────────────────────────────
 st.header("Semifinaler")
-st.caption("Grønn = riktig lag videre · 16 poeng per riktig lag")
+st.markdown('<span style="color:green">Grønn = riktig lag videre · 16 poeng per riktig lag</span>', unsafe_allow_html=True)
 knockout_tips_overview('semi_finals', 'Semifinaler')
 
 # ── Finals ────────────────────────────────────────────────────────────────────
 st.header("Finale")
-st.caption("Grønn = riktig finalist (32 poeng) / riktig vinner (64 poeng)")
+st.markdown('<span style="color:green">Grønn = riktig finalist (32 poeng) / riktig vinner (64 poeng)</span>', unsafe_allow_html=True)
 
 actual_final_teams = set(actual['finals'].get('teams', []))
 actual_winner = actual['finals'].get('winner', '')

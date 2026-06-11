@@ -68,7 +68,7 @@ if person_pred and person_scores:
     st.markdown("---")
     
     # Tabs for different sections
-    tab1, tab2, tab3, tab4 = st.tabs(["Group Stage Matches", "Knockout Predictions", "Comparison", "Summary"])
+    tab1, tab2, tab3 = st.tabs(["Group Stage Matches", "Knockout Predictions", "Summary"])
     
     with tab1:
         st.markdown("#### Group Stage Match Results")
@@ -205,40 +205,6 @@ if person_pred and person_scores:
             st.write(f"**Points:** {64 if finals_winner_correct else 0}")
     
     with tab3:
-        st.markdown("#### Comparison with Other Predictions")
-        
-        # Compare knockout predictions
-        comparison_data = {
-            'Person': [],
-            'R32 Correct': [],
-            'R16 Correct': [],
-            'QF Correct': [],
-            'SF Correct': [],
-            'Finals Winner': []
-        }
-        
-        for person, pred in predictions_data['predictions'].items():
-            comparison_data['Person'].append(person.title())
-            comparison_data['R32 Correct'].append(
-                len(set(pred['round_of_32']) & set(actual_data['predictions']['results']['round_of_32']))
-            )
-            comparison_data['R16 Correct'].append(
-                len(set(pred['round_of_16']) & set(actual_data['predictions']['results']['round_of_16']))
-            )
-            comparison_data['QF Correct'].append(
-                len(set(pred['quarter_finals']) & set(actual_data['predictions']['results']['quarter_finals']))
-            )
-            comparison_data['SF Correct'].append(
-                len(set(pred['semi_finals']) & set(actual_data['predictions']['results']['semi_finals']))
-            )
-            comparison_data['Finals Winner'].append(
-                "✓" if pred['finals']['winner'] == actual_data['predictions']['results']['finals']['winner'] else "✗"
-            )
-        
-        comparison_df = pd.DataFrame(comparison_data)
-        st.dataframe(comparison_df, use_container_width=True, hide_index=True)
-    
-    with tab4:
         st.markdown("#### Score Summary")
         st.write(f"""
         **{selected_person}** earned their {person_scores['total']} points as follows:
