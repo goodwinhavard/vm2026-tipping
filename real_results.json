@@ -32,20 +32,20 @@
         },
         {
           "home": "Haiti",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 0,
+          "away_score": 1,
           "away": "Skottland"
         },
         {
           "home": "Australia",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 2,
+          "away_score": 0,
           "away": "Tyrkia"
         },
         {
           "home": "Brasil",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 1,
+          "away_score": 1,
           "away": "Marokko"
         },
         {
