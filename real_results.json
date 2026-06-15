@@ -1,5 +1,5 @@
 {
-  "extraction_date": "2026-06-14",
+  "extraction_date": "2026-06-15",
   "files_processed": 999,
   "predictions": {
     "results": {
@@ -104,7 +104,7 @@
         },
         {
           "home": "Frankrike",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Senegal"
         },
@@ -116,7 +116,7 @@
         },
         {
           "home": "Argentina",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Algeria"
         },
