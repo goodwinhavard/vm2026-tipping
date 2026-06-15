@@ -56,8 +56,8 @@
         },
         {
           "home": "Elfenbenskysten",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 1,
+          "away_score": 0,
           "away": "Ecuador"
         },
         {
@@ -68,14 +68,14 @@
         },
         {
           "home": "Nederland",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 2,
+          "away_score": 2,
           "away": "Japan"
         },
         {
           "home": "Sverige",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 5,
+          "away_score": 1,
           "away": "Tunisia"
         },
         {
