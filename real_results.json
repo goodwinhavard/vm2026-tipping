@@ -86,8 +86,8 @@
         },
         {
           "home": "Spania",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 0,
+          "away_score": 0,
           "away": "Kapp Verde"
         },
         {
