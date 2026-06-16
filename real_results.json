@@ -212,7 +212,7 @@
         },
         {
           "home": "Nederland",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Sverige"
         },
@@ -224,25 +224,25 @@
         },
         {
           "home": "Uruguay",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Kapp Verde"
         },
         {
           "home": "Spania",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Saudi-Arabia"
         },
         {
           "home": "Belgia",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Iran"
         },
         {
           "home": "New Zealand",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Egypt"
         },
