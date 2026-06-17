@@ -1,5 +1,5 @@
 {
-  "extraction_date": "2026-06-14",
+  "extraction_date": "2026-06-15",
   "files_processed": 999,
   "predictions": {
     "results": {
@@ -56,8 +56,8 @@
         },
         {
           "home": "Elfenbenskysten",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 1,
+          "away_score": 0,
           "away": "Ecuador"
         },
         {
@@ -68,43 +68,43 @@
         },
         {
           "home": "Nederland",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 2,
+          "away_score": 2,
           "away": "Japan"
         },
         {
           "home": "Sverige",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 5,
+          "away_score": 1,
           "away": "Tunisia"
         },
         {
           "home": "Saudi-Arabia",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 1,
+          "away_score": 1,
           "away": "Uruguay"
         },
         {
           "home": "Spania",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 0,
+          "away_score": 0,
           "away": "Kapp Verde"
         },
         {
           "home": "Iran",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 2,
+          "away_score": 2,
           "away": "New Zealand"
         },
         {
           "home": "Belgia",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 1,
+          "away_score": 1,
           "away": "Egypt"
         },
         {
           "home": "Frankrike",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Senegal"
         },
@@ -116,7 +116,7 @@
         },
         {
           "home": "Argentina",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Algeria"
         },
@@ -212,7 +212,7 @@
         },
         {
           "home": "Nederland",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Sverige"
         },
@@ -224,25 +224,25 @@
         },
         {
           "home": "Uruguay",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Kapp Verde"
         },
         {
           "home": "Spania",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Saudi-Arabia"
         },
         {
           "home": "Belgia",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Iran"
         },
         {
           "home": "New Zealand",
-          "home_score": 0,
+          "home_score": 999,
           "away_score": 999,
           "away": "Egypt"
         },

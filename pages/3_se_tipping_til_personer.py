@@ -52,7 +52,7 @@ with st.expander("📋 GROUP STAGE MATCHES", expanded=True):
         })
     
     group_df = pd.DataFrame(group_stage_list)
-    st.dataframe(group_df, use_container_width=True, hide_index=True)
+    st.dataframe(group_df, width='stretch', hide_index=True)
 
 # Round of 32 Section
 with st.expander(f"🏆 ROUND OF 32 ({len(person_data['round_of_32'])} teams)"):

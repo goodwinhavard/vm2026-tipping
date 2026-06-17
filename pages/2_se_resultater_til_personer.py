@@ -16,19 +16,67 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from calculate_score import calculate_scores
+from fetch_results import fetch_world_cup_results
+from names_eng_to_nor import ENGLISH_TO_NORWEGIAN
 
 @st.cache_data
 def load_json(filename):
     with open(filename, 'r') as f:
         return json.load(f)
 
+def ensure_results_loaded():
+    """Ensure results are loaded in session state."""
+    if 'tournament_results' not in st.session_state or not st.session_state.tournament_results:
+        try:
+            st.session_state.tournament_results = fetch_world_cup_results()
+        except:
+            # Fall back to loading from file if API fails
+            try:
+                print("Falling back to local results file...")
+                actual_data = load_json('real_results.json')
+                st.session_state.tournament_results = actual_data.get('predictions', {}).get('results', {})
+            except:
+                st.session_state.tournament_results = {
+                    'matches': [],
+                    'round_of_32': [],
+                    'round_of_16': [],
+                    'quarter_finals': [],
+                    'semi_finals': [],
+                    'finals_teams': [],
+                    'finals_winner': None
+                }
+
 @st.cache_data
 def get_scores():
     return calculate_scores()
 
-scores_data = get_scores()
+def get_scores_with_results():
+    """Get scores using current results from session state."""
+    tournament_results = st.session_state.get('tournament_results', {})
+    return calculate_scores(tournament_results=tournament_results)
+
+def find_actual_match(pred_match, actual_matches):
+    """Find the actual match that corresponds to a prediction by matching team names."""
+    pred_home = pred_match.get('home', '').strip().lower()
+    pred_away = pred_match.get('away', '').strip().lower()
+    
+    for actual in actual_matches:
+        actual_home = actual.get('home_team', '').strip().lower()
+        actual_away = actual.get('away_team', '').strip().lower()
+        # Match by team names (both directions to handle any swaps)
+        if ((pred_home == actual_home and pred_away == actual_away) or
+            (pred_home == actual_away and pred_away == actual_home)):
+            return actual
+    return None
+
+ensure_results_loaded()
+scores_data = get_scores_with_results()
+
 predictions_data = load_json('all_tournament_tips.json')
-actual_data = load_json('real_results.json')
+
+# Get actual results from session state
+tournament_results = st.session_state.get('tournament_results', {})
+actual_data = {'predictions': {'results': tournament_results}}
 
 sorted_scores = sorted(scores_data.items(), key=lambda x: x[1]['total'], reverse=True)
 
@@ -76,11 +124,17 @@ if person_pred and person_scores:
         
         # Create a table of group stage matches
         group_stage_data = []
-        for i, pred_match in enumerate(person_pred['matches']):
-            actual_match = actual_data['predictions']['results']['matches'][i]
+        actual_matches = actual_data['predictions']['results'].get('matches', [])
+        
+        for pred_match in person_pred['matches']:
+            # Find the matching actual match by team names
+            actual_match = find_actual_match(pred_match, actual_matches)
+            
+            if actual_match is None:
+                continue  # Skip if no matching actual match found
             
             # Check if match is played
-            if actual_match['home_score'] == 999 or actual_match['away_score'] == 999:
+            if actual_match['home_score'] is None or actual_match['away_score'] is None:
                 status = "Not played"
                 points = 0
                 score_display = f"{pred_match['home_score']}-{pred_match['away_score']} vs TBD"
@@ -114,12 +168,12 @@ if person_pred and person_scores:
             group_stage_data.append({
                 'Match': f"{pred_match['home']} vs {pred_match['away']}",
                 'Prediction': f"{pred_match['home_score']}-{pred_match['away_score']}",
-                'Actual': f"{actual_match['home_score']}-{actual_match['away_score']}" if actual_match['home_score'] != 999 else "TBD",
+                'Actual': f"{actual_match['home_score']}-{actual_match['away_score']}" if actual_match['home_score'] is not None else "TBD",
                 'Points': points
             })
         
         group_df = pd.DataFrame(group_stage_data)
-        st.dataframe(group_df, use_container_width=True, hide_index=True)
+        st.dataframe(group_df, width='stretch', hide_index=True)
     
     with tab2:
         st.markdown("#### Knockout Stage Predictions")
@@ -195,13 +249,17 @@ if person_pred and person_scores:
         # Finals
         st.markdown("**Finals**")
         finals_col1, finals_col2 = st.columns(2)
+        
+        finals_teams = actual_data['predictions']['results'].get('finals_teams', [])
+        finals_winner = actual_data['predictions']['results'].get('finals_winner', None)
+        
         with finals_col1:
             st.write(f"**Predicted:** {person_pred['finals']['teams'][0]} vs {person_pred['finals']['teams'][1] if len(person_pred['finals']['teams']) > 1 else 'TBD'}")
-            st.write(f"**Actual:** {actual_data['predictions']['results']['finals']['teams'][0] if actual_data['predictions']['results']['finals']['teams'] else 'TBD'} vs {actual_data['predictions']['results']['finals']['teams'][1] if len(actual_data['predictions']['results']['finals']['teams']) > 1 else 'TBD'}")
+            st.write(f"**Actual:** {finals_teams[0] if finals_teams else 'TBD'} vs {finals_teams[1] if len(finals_teams) > 1 else 'TBD'}")
         with finals_col2:
             st.write(f"**Predicted Winner:** {person_pred['finals']['winner']}")
-            st.write(f"**Actual Winner:** {actual_data['predictions']['results']['finals']['winner'] if actual_data['predictions']['results']['finals']['winner'] else 'TBD'}")
-            finals_winner_correct = person_pred['finals']['winner'] == actual_data['predictions']['results']['finals']['winner']
+            st.write(f"**Actual Winner:** {finals_winner if finals_winner else 'TBD'}")
+            finals_winner_correct = person_pred['finals']['winner'] == finals_winner
             st.write(f"**Points:** {64 if finals_winner_correct else 0}")
     
     with tab3:

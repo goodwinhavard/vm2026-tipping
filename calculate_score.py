@@ -26,8 +26,10 @@ def calculate_match_score(prediction, actual):
     """Calculate score for a single match."""
     score = 0
     
-    # Skip if actual result not available (999 indicates not played)
-    if actual['home_score'] == 999 or actual['away_score'] == 999:
+    # Skip if actual result not available (999 indicates not played, or None in API format)
+    home_score = actual.get('home_score')
+    away_score = actual.get('away_score')
+    if home_score is None or away_score is None or home_score == 999 or away_score == 999:
         return 0
     
     # Determine predicted and actual winners
@@ -62,6 +64,20 @@ def calculate_final_winner_score(predicted_winner, actual_winner):
         return 64
     return 0
 
+def find_actual_match_for_prediction(pred_match, actual_matches):
+    """Find the actual match corresponding to a prediction by matching team names."""
+    pred_home = pred_match.get('home', '').strip().lower()
+    pred_away = pred_match.get('away', '').strip().lower()
+    
+    for actual in actual_matches:
+        actual_home = actual.get('home_team', '').strip().lower()
+        actual_away = actual.get('away_team', '').strip().lower()
+        # Match by team names (both directions)
+        if ((pred_home == actual_home and pred_away == actual_away) or
+            (pred_home == actual_away and pred_away == actual_home)):
+            return actual
+    return None
+
 def calculate_person_score(prediction_data, actual_data):
     """Calculate total score for a person."""
     total_score = 0
@@ -78,16 +94,24 @@ def calculate_person_score(prediction_data, actual_data):
     
     # Score group stage matches
     group_stage_score = 0
-    for pred_match, actual_match in zip(prediction_data['matches'], actual_data['matches']):
-        match_score = calculate_match_score(pred_match, actual_match)
-        group_stage_score += match_score
+    actual_matches = actual_data.get('matches', [])
+    pred_matches = prediction_data.get('matches', [])
+    
+    for pred_match in pred_matches:
+        # Find the matching actual match by team names
+        actual_match = find_actual_match_for_prediction(pred_match, actual_matches)
+        
+        if actual_match:  # Only score if we found a matching actual match
+            match_score = calculate_match_score(pred_match, actual_match)
+            group_stage_score += match_score
+    
     breakdown['group_stage'] = group_stage_score
     total_score += group_stage_score
     
     # Score Round of 32
     r32_score = calculate_knockout_score(
         prediction_data['round_of_32'],
-        actual_data['round_of_32'],
+        actual_data.get('round_of_32', []),
         2
     )
     breakdown['round_of_32'] = r32_score
@@ -96,7 +120,7 @@ def calculate_person_score(prediction_data, actual_data):
     # Score Round of 16
     r16_score = calculate_knockout_score(
         prediction_data['round_of_16'],
-        actual_data['round_of_16'],
+        actual_data.get('round_of_16', []),
         4
     )
     breakdown['round_of_16'] = r16_score
@@ -105,7 +129,7 @@ def calculate_person_score(prediction_data, actual_data):
     # Score Quarter Finals
     qf_score = calculate_knockout_score(
         prediction_data['quarter_finals'],
-        actual_data['quarter_finals'],
+        actual_data.get('quarter_finals', []),
         8
     )
     breakdown['quarter_finals'] = qf_score
@@ -114,7 +138,7 @@ def calculate_person_score(prediction_data, actual_data):
     # Score Semi Finals
     sf_score = calculate_knockout_score(
         prediction_data['semi_finals'],
-        actual_data['semi_finals'],
+        actual_data.get('semi_finals', []),
         16
     )
     breakdown['semi_finals'] = sf_score
@@ -122,8 +146,8 @@ def calculate_person_score(prediction_data, actual_data):
     
     # Score Finals teams
     finals_teams_score = calculate_knockout_score(
-        prediction_data['finals']['teams'],
-        actual_data['finals']['teams'],
+        prediction_data.get('finals', {}).get('teams', []),
+        actual_data.get('finals_teams', []),
         32
     )
     breakdown['finals_teams'] = finals_teams_score
@@ -131,8 +155,8 @@ def calculate_person_score(prediction_data, actual_data):
     
     # Score Finals winner
     finals_winner_score = calculate_final_winner_score(
-        prediction_data['finals']['winner'],
-        actual_data['finals']['winner']
+        prediction_data.get('finals', {}).get('winner', None),
+        actual_data.get('finals_winner', None)
     )
     breakdown['finals_winner'] = finals_winner_score
     total_score += finals_winner_score
@@ -141,10 +165,41 @@ def calculate_person_score(prediction_data, actual_data):
     
     return total_score, breakdown
 
-def calculate_scores(predictions_file='all_tournament_tips.json', results_file='real_results.json'):
-    """Calculate scores for all participants and return as a dict."""
+def calculate_scores(predictions_file='all_tournament_tips.json', results_file='real_results.json', actual_results=None, tournament_results=None):
+    """Calculate scores for all participants and return as a dict.
+    
+    Args:
+        predictions_file: Path to predictions JSON file
+        results_file: Path to results JSON file (used if neither actual_results nor tournament_results is provided)
+        actual_results: List of group stage match results (legacy parameter)
+        tournament_results: Dict with complete tournament results including knockout stages
+    """
     predictions = load_json(predictions_file)
-    actual = load_json(results_file)
+    
+    if tournament_results:
+        # Use complete tournament results structure
+        actual = {
+            'predictions': {
+                'results': tournament_results
+            }
+        }
+    elif actual_results:
+        # Convert legacy list format to the expected format
+        actual = {
+            'predictions': {
+                'results': {
+                    'matches': actual_results,
+                    'round_of_32': [],
+                    'round_of_16': [],
+                    'quarter_finals': [],
+                    'semi_finals': [],
+                    'finals': {'teams': [], 'winner': None}
+                }
+            }
+        }
+    else:
+        # Fall back to loading from file
+        actual = load_json(results_file)
 
     scores = {}
     for person_name, person_prediction in predictions['predictions'].items():
