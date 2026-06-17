@@ -19,8 +19,8 @@ all_matches = st.session_state.tournament_results.get('matches', [])
 
 played_matches_data = []
 for match in all_matches:
-    if match['home_score'] is not None and match['away_score'] is not None and match['home_score'] != 999 and match['away_score'] != 999:
-        played_matches_data.append({'Hjemmelag': match['home_team'], 'Resultat': match['score_str'], 'Bortelag': match['away_team']})
+    #if match['home_score'] is not None and match['away_score'] is not None and match['home_score'] != 999 and match['away_score'] != 999:
+    played_matches_data.append({'Hjemmelag': match['home_team'], 'Resultat': match['score_str'], 'Bortelag': match['away_team']})
 
 if played_matches_data:
     df = pd.DataFrame(played_matches_data)
