@@ -29,7 +29,7 @@ def fetch_world_cup_results():
         
         matches = []
         knockout_stages = {
-            'round_of_32': ["Mexico"],
+            'round_of_32': ["Mexico", "USA"],
             'round_of_16': [],
             'quarter_finals': [],
             'semi_finals': [],
