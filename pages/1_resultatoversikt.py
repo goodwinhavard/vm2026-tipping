@@ -173,7 +173,7 @@ def knockout_tips_overview(stage_key, stage_label):
             tips = all_tips[person]
             team = tips[i] if i < len(tips) else ''
             row[col] = team
-            color_row[col] = 'background-color: #c6efce' if (team and team in actual_teams) else ''
+            color_row[col] = 'color: green; font-weight: bold' if (team and team in actual_teams) else ''
         rows.append(row)
         color_rows.append(color_row)
 

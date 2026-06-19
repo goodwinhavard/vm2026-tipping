@@ -27,3 +27,44 @@ if played_matches_data:
     st.dataframe(df, hide_index=True, width='stretch')
 else:
     st.info("Ingen ferdigstilte kamper å vise.")
+
+st.markdown("---")
+st.subheader("Videre til sluttspillet")
+
+round_of_32 = st.session_state.tournament_results.get('round_of_32', [])
+round_of_16 = st.session_state.tournament_results.get('round_of_16', [])
+quarter_finals = st.session_state.tournament_results.get('quarter_finals', [])
+semi_finals = st.session_state.tournament_results.get('semi_finals', [])
+finals_teams = st.session_state.tournament_results.get('finals_teams', [])
+finals_winner = st.session_state.tournament_results.get('finals_winner')
+
+def team_list(teams, empty_msg="Ikke avgjort ennå"):
+    if teams:
+        for t in teams:
+            st.write(f"- {t}")
+    else:
+        st.caption(empty_msg)
+
+col1, col2, col3, col4, col5 = st.columns(5)
+
+with col1:
+    st.markdown("**Runde av 32**")
+    team_list(round_of_32)
+
+with col2:
+    st.markdown("**Runde av 16**")
+    team_list(round_of_16)
+
+with col3:
+    st.markdown("**Kvartfinale**")
+    team_list(quarter_finals)
+
+with col4:
+    st.markdown("**Semifinale**")
+    team_list(semi_finals)
+
+with col5:
+    st.markdown("**Finale**")
+    team_list(finals_teams)
+    if finals_winner:
+        st.markdown(f"**Vinner: {finals_winner}**")

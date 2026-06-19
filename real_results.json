@@ -118,7 +118,7 @@
           "home": "Argentina",
           "home_score": 3,
           "away_score": 0,
-          "away": "Algeria"
+          "away": "Algerie"
         },
         {
           "home": "\u00d8sterrike",
@@ -128,50 +128,50 @@
         },
         {
           "home": "Ghana",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 1,
+          "away_score": 0,
           "away": "Panama"
         },
         {
           "home": "England",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 4,
+          "away_score": 2,
           "away": "Kroatia"
         },
         {
           "home": "Portugal",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 1,
+          "away_score": 1,
           "away": "DR Kongo"
         },
         {
           "home": "Usbekistan",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 1,
+          "away_score": 3,
           "away": "Colombia"
         },
         {
           "home": "Tsjekkia",
-          "home_score": 0,
-          "away_score": 999,
+          "home_score": 1,
+          "away_score": 1,
           "away": "S\u00f8r-Afrika"
         },
         {
           "home": "Sveits",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 4,
+          "away_score": 1,
           "away": "Bosnia-Hercegovina"
         },
         {
           "home": "Canada",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 6,
+          "away_score": 0,
           "away": "Qatar"
         },
         {
           "home": "Mexico",
-          "home_score": 999,
-          "away_score": 999,
+          "home_score": 1,
+          "away_score": 0,
           "away": "S\u00f8r-Korea"
         },
         {
@@ -268,7 +268,7 @@
           "home": "Jordan",
           "home_score": 999,
           "away_score": 999,
-          "away": "Algeria"
+          "away": "Algerie"
         },
         {
           "home": "England",
@@ -415,7 +415,7 @@
           "away": "Ghana"
         },
         {
-          "home": "Algeria",
+          "home": "Algerie",
           "home_score": 999,
           "away_score": 999,
           "away": "\u00d8sterrike"
