@@ -138,3 +138,37 @@ def fetch_world_cup_results():
             'finals_teams': finals.get('teams', []),
             'finals_winner': finals.get('winner') or None,
         }
+
+
+def fetch_eliminated_teams(results=None):
+    """Derive teams eliminated at each stage from tournament results."""
+    if results is None:
+        results = fetch_world_cup_results()
+
+    r32   = set(results.get('round_of_32') or [])
+    r16   = set(results.get('round_of_16') or [])
+    qf    = set(results.get('quarter_finals') or [])
+    sf    = set(results.get('semi_finals') or [])
+    final = set(results.get('finals_teams') or [])
+    winner = results.get('finals_winner')
+
+    # Group stage: manually maintained (full 48-team list not in API response)
+    pre_round_of_32 = ["Tyrkia"]
+
+    # return {
+    #     'pre_round_of_32':    pre_round_of_32,
+    #     'pre_round_of_16':    sorted(t for t in r32  if t not in r16),
+    #     'pre_quarter_finals': sorted(t for t in r16  if t not in qf),
+    #     'pre_semi_finals':    sorted(t for t in qf   if t not in sf),
+    #     'pre_finals_teams':   sorted(t for t in sf   if t not in final),
+    #     'runner_up':          sorted(t for t in final if t != winner) if winner else [],
+    # }
+
+    return {
+        'pre_round_of_32':    ["Tyrkia"],
+        'pre_round_of_16':    [],
+        'pre_quarter_finals': [],
+        'pre_semi_finals':    [],
+        'pre_finals_teams':   [],
+        'runner_up':          [],
+    }

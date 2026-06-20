@@ -1,7 +1,11 @@
 import streamlit as st
 import json
+import sys
+import os
 import pandas as pd
 from names_eng_to_nor import ENGLISH_TO_NORWEGIAN
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+from fetch_results import fetch_eliminated_teams
 
 st.set_page_config(
     page_title="Resultater oversikt - VM 2026 Tipping",
@@ -46,6 +50,16 @@ ensure_results_loaded()
 
 persons = list(predictions_data['predictions'].keys())
 actual = st.session_state.get('tournament_results', {'matches': []})
+
+eliminated = fetch_eliminated_teams(actual)
+_elim_up_to = {
+    'round_of_32':    ['pre_round_of_32'],
+    'round_of_16':    ['pre_round_of_32', 'pre_round_of_16'],
+    'quarter_finals': ['pre_round_of_32', 'pre_round_of_16', 'pre_quarter_finals'],
+    'semi_finals':    ['pre_round_of_32', 'pre_round_of_16', 'pre_quarter_finals', 'pre_semi_finals'],
+    'finals_teams':   ['pre_round_of_32', 'pre_round_of_16', 'pre_quarter_finals', 'pre_semi_finals', 'pre_finals_teams'],
+    'finals_winner':  ['pre_round_of_32', 'pre_round_of_16', 'pre_quarter_finals', 'pre_semi_finals', 'pre_finals_teams', 'runner_up'],
+}
 
 
 def match_outcome(home_score, away_score):
@@ -156,6 +170,7 @@ st.dataframe(styled_group, width='stretch', hide_index=True)
 # ── Knockout tips overview ────────────────────────────────────────────────────
 def knockout_tips_overview(stage_key, stage_label):
     actual_teams = set(actual.get(stage_key, []))
+    elim_teams = set(t for k in _elim_up_to.get(stage_key, []) for t in eliminated.get(k, []))
     all_tips = {p: predictions_data['predictions'][p].get(stage_key, []) for p in persons}
     max_rows = max((len(t) for t in all_tips.values()), default=0)
 
@@ -173,7 +188,12 @@ def knockout_tips_overview(stage_key, stage_label):
             tips = all_tips[person]
             team = tips[i] if i < len(tips) else ''
             row[col] = team
-            color_row[col] = 'color: green; font-weight: bold' if (team and team in actual_teams) else ''
+            if team and team in actual_teams:
+                color_row[col] = 'color: green; font-weight: bold'
+            elif team and team in elim_teams:
+                color_row[col] = 'color: red; font-weight: bold'
+            else:
+                color_row[col] = ''
         rows.append(row)
         color_rows.append(color_row)
 
@@ -209,6 +229,8 @@ st.markdown('<span style="color:green">Grønn = riktig finalist (32 poeng) / rik
 
 actual_final_teams = set(actual.get('finals_teams', []))
 actual_winner = actual.get('finals_winner', '')
+elim_before_final = set(t for k in _elim_up_to['finals_teams'] for t in eliminated.get(k, []))
+elim_before_winner = set(t for k in _elim_up_to['finals_winner'] for t in eliminated.get(k, []))
 
 labels = ['Finalist 1', 'Finalist 2', 'Vinner']
 rows = []
@@ -223,11 +245,21 @@ for i, label in enumerate(labels):
             teams = person_final.get('teams', [])
             team = teams[i] if i < len(teams) else ''
             row[col] = team
-            color_row[col] = 'background-color: #c6efce' if (team and team in actual_final_teams) else ''
+            if team and team in actual_final_teams:
+                color_row[col] = 'background-color: #c6efce'
+            elif team and team in elim_before_final:
+                color_row[col] = 'color: red; font-weight: bold'
+            else:
+                color_row[col] = ''
         else:
             winner = person_final.get('winner', '')
             row[col] = winner
-            color_row[col] = 'background-color: #c6efce' if (winner and winner == actual_winner) else ''
+            if winner and winner == actual_winner:
+                color_row[col] = 'background-color: #c6efce'
+            elif winner and winner in elim_before_winner:
+                color_row[col] = 'color: red; font-weight: bold'
+            else:
+                color_row[col] = ''
     rows.append(row)
     color_rows.append(color_row)
 

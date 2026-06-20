@@ -20,7 +20,7 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(__file__))
 from calculate_score import calculate_scores
-from fetch_results import fetch_world_cup_results
+from fetch_results import fetch_world_cup_results, fetch_eliminated_teams
 
 @st.cache_data
 def load_json(filename):
@@ -80,22 +80,28 @@ try:
 
     predictions_data = load_json('all_tournament_tips.json')
 
-    # Stages in elimination order, with their full-size thresholds
-    _stage_order = ['round_of_32', 'round_of_16', 'quarter_finals', 'semi_finals', 'finals_teams']
-    _stage_sizes = {'round_of_32': 32, 'round_of_16': 16, 'quarter_finals': 8, 'semi_finals': 4, 'finals_teams': 2}
+    eliminated_data = fetch_eliminated_teams(tournament_results)
+
+    _elim_stages = [
+        'pre_round_of_32',
+        'pre_round_of_16',
+        'pre_quarter_finals',
+        'pre_semi_finals',
+        'pre_finals_teams',
+        'runner_up',
+    ]
+    _elim_up_to = {
+        'round_of_32':    _elim_stages[:1],
+        'round_of_16':    _elim_stages[:2],
+        'quarter_finals': _elim_stages[:3],
+        'semi_finals':    _elim_stages[:4],
+        'finals_teams':   _elim_stages[:5],
+        'finals_winner':  _elim_stages[:6],
+    }
 
     def is_team_eliminated(team, for_stage):
-        """True if team is confirmed out before reaching for_stage."""
-        if for_stage == 'finals_winner':
-            finals_teams = tournament_results.get('finals_teams') or []
-            if len(finals_teams) == 2:
-                return team not in finals_teams
-            preceding = _stage_order
-        else:
-            preceding = _stage_order[:_stage_order.index(for_stage)]
-        for sk in preceding:
-            actual = tournament_results.get(sk) or []
-            if len(actual) == _stage_sizes[sk] and team not in actual:
+        for key in _elim_up_to.get(for_stage, []):
+            if team in eliminated_data.get(key, []):
                 return True
         return False
 

@@ -3,7 +3,7 @@ import sys
 import os
 import pandas as pd
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
-from fetch_results import fetch_world_cup_results
+from fetch_results import fetch_world_cup_results, fetch_eliminated_teams
 
 st.title("⚽ Kampresultater")
 st.markdown("---")
@@ -68,3 +68,25 @@ with col5:
     team_list(finals_teams)
     if finals_winner:
         st.markdown(f"**Vinner: {finals_winner}**")
+
+st.markdown("---")
+st.subheader("Eliminerte lag")
+
+eliminated = fetch_eliminated_teams(st.session_state.tournament_results)
+
+elim_labels = [
+    ('pre_round_of_32',    'Gruppespill'),
+    ('pre_round_of_16',    'Runde av 32'),
+    ('pre_quarter_finals', 'Runde av 16'),
+    ('pre_semi_finals',    'Kvartfinale'),
+    ('pre_finals_teams',   'Semifinale'),
+    ('runner_up',          'Finale (runner-up)'),
+]
+
+ecol1, ecol2, ecol3, ecol4, ecol5, ecol6 = st.columns(6)
+ecols = [ecol1, ecol2, ecol3, ecol4, ecol5, ecol6]
+
+for col, (key, label) in zip(ecols, elim_labels):
+    with col:
+        st.markdown(f"**{label}**")
+        team_list(eliminated.get(key, []))
