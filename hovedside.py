@@ -1,5 +1,5 @@
 import streamlit as st
-from datetime import datetime
+from datetime import datetime, timedelta
 import pandas as pd
 
 # Set page config
@@ -60,6 +60,7 @@ try:
     
     sorted_scores = sorted(scores_data.items(), key=lambda x: x[1]['total'], reverse=True)
 
+    #col1, col2, col3, col4, col5 = st.columns(5)
     col1, col2, col3 = st.columns(3)
     with col1:
         st.metric("🥇 Leder", sorted_scores[0][0].title(), f"{sorted_scores[0][1]['total']} pts")
@@ -69,6 +70,12 @@ try:
     if len(sorted_scores) > 2:
         with col3:
             st.metric("🥉 Tredje", sorted_scores[2][0].title(), f"{sorted_scores[2][1]['total']} pts")
+    # if len(sorted_scores) > 3:
+    #     with col4:
+    #         st.metric("4. Fjerde", sorted_scores[3][0].title(), f"{sorted_scores[3][1]['total']} pts")
+    # if len(sorted_scores) > 4:
+    #     with col5:
+    #         st.metric("5. Femte", sorted_scores[4][0].title(), f"{sorted_scores[4][1]['total']} pts")
 
     st.markdown("---")
     st.subheader("🏆 Tabell")
@@ -163,6 +170,6 @@ st.markdown("""
 
 ### 🔄 Sist oppdatert
 
-""" + datetime.now().strftime("%Y-%m-%d %H:%M") + """
+""" + (datetime.now() + timedelta(hours=2)).strftime("%Y-%m-%d %H:%M") + """
 
 """)
