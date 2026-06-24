@@ -29,14 +29,14 @@ def fetch_world_cup_results():
         
         matches = []
         knockout_stages = {
-            'round_of_32': ["Mexico", "USA", "Tyskland", "Argentina", "Frankrike", "Norge"],
+            'round_of_32': ["Mexico", "USA", "Tyskland", "Argentina", "Frankrike", "Norge", "Colombia"],
             'round_of_16': [],
             'quarter_finals': [],
             'semi_finals': [],
             'finals_teams': [],
             'finals_winner': None
         }
-        
+
         # Stage mapping from API to our format
         stage_mapping = {
             'LAST_32': 'round_of_32',
@@ -45,25 +45,22 @@ def fetch_world_cup_results():
             'SEMI_FINALS': 'semi_finals',
             'FINAL': 'finals'
         }
-        
+
         # Parse JSON response
         for match in response.json()['matches']:
             home_team = match['homeTeam']['name']
             away_team = match['awayTeam']['name']
             stage = match.get('stage', 'GROUP_STAGE')
             status = match.get('status')
-            
+
             # Convert team names to Norwegian
             home_team_nor = ENGLISH_TO_NORWEGIAN.get(home_team, home_team)
             away_team_nor = ENGLISH_TO_NORWEGIAN.get(away_team, away_team)
-            
-            # Process matches: Include all Group Stage matches (FINISHED, IN_PLAY, TIMED)
-            # and only FINISHED matches for knockout stages to track winners
-            if status == 'FINISHED' or (stage == 'GROUP_STAGE' and status in ['IN_PLAY', 'TIMED']):
+
+            if stage == 'GROUP_STAGE' and status in ['FINISHED', 'IN_PLAY', 'TIMED']:
                 home_score = match['score']['fullTime']['home']
                 away_score = match['score']['fullTime']['away']
-                
-                match_result = {
+                matches.append({
                     'home_team_eng': home_team,
                     'away_team_eng': away_team,
                     'home_team': home_team_nor,
@@ -71,40 +68,36 @@ def fetch_world_cup_results():
                     'home_score': home_score,
                     'away_score': away_score,
                     'score_str': f"{home_score}–{away_score}" if home_score is not None else "–"
-                }
-                
-                # Add to appropriate list
-                if stage == 'GROUP_STAGE':
-                    matches.append(match_result)
-                elif status == 'FINISHED' and stage in stage_mapping:
-                    # Determine winner for knockout stages
-                    if home_score > away_score:
-                        winner = home_team_nor
-                    elif away_score > home_score:
-                        winner = away_team_nor
-                    else:
-                        # For knockout stages, there shouldn't be draws (goes to extra time/penalties)
-                        # But if it happens, we'll skip it
-                        continue
-                    
-                    if stage == 'FINAL':
-                        knockout_stages['finals_winner'] = winner
-                        # Also add both finalists to finals_teams
-                        if home_team_nor not in knockout_stages['finals_teams']:
-                            knockout_stages['finals_teams'].append(home_team_nor)
-                        if away_team_nor not in knockout_stages['finals_teams']:
-                            knockout_stages['finals_teams'].append(away_team_nor)
-                    else:
-                        stage_key = stage_mapping[stage]
-                        knockout_stages[stage_key].append(winner)
+                })
+            elif stage in stage_mapping:
+                # Add both participating teams to their stage list regardless of match status,
+                # so the list reflects all scheduled/played teams, not just winners.
+                if stage == 'FINAL':
+                    if home_team_nor not in knockout_stages['finals_teams']:
+                        knockout_stages['finals_teams'].append(home_team_nor)
+                    if away_team_nor not in knockout_stages['finals_teams']:
+                        knockout_stages['finals_teams'].append(away_team_nor)
+                    if status == 'FINISHED':
+                        home_score = match['score']['fullTime']['home']
+                        away_score = match['score']['fullTime']['away']
+                        if home_score > away_score:
+                            knockout_stages['finals_winner'] = home_team_nor
+                        elif away_score > home_score:
+                            knockout_stages['finals_winner'] = away_team_nor
+                else:
+                    stage_key = stage_mapping[stage]
+                    if home_team_nor not in knockout_stages[stage_key]:
+                        knockout_stages[stage_key].append(home_team_nor)
+                    if away_team_nor not in knockout_stages[stage_key]:
+                        knockout_stages[stage_key].append(away_team_nor)
         
         return {
             'matches': matches,
-            'round_of_32': knockout_stages['round_of_32'],
-            'round_of_16': knockout_stages['round_of_16'],
-            'quarter_finals': knockout_stages['quarter_finals'],
-            'semi_finals': knockout_stages['semi_finals'],
-            'finals_teams': knockout_stages['finals_teams'],
+            'round_of_32': list(set(knockout_stages['round_of_32'])),
+            'round_of_16': list(set(knockout_stages['round_of_16'])),
+            'quarter_finals': list(set(knockout_stages['quarter_finals'])),
+            'semi_finals': list(set(knockout_stages['semi_finals'])),
+            'finals_teams': list(set(knockout_stages['finals_teams'])),
             'finals_winner': knockout_stages['finals_winner']
         }
     
@@ -165,7 +158,7 @@ def fetch_eliminated_teams(results=None):
     # }
 
     return {
-        'pre_round_of_32':    ["Tyrkia", "Haiti", "Tunisia"],
+        'pre_round_of_32':    ["Tyrkia", "Haiti", "Tunisia", "Jordan", "Panama"],
         'pre_round_of_16':    [],
         'pre_quarter_finals': [],
         'pre_semi_finals':    [],
