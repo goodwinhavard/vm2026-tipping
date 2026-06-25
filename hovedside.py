@@ -68,8 +68,10 @@ try:
         with col2:
             st.metric("🥈 Andre", sorted_scores[1][0].title(), f"{sorted_scores[1][1]['total']} pts")
     if len(sorted_scores) > 2:
+        third_score = sorted_scores[2][1]['total']
+        third_place = [name.title() for name, data in sorted_scores[2:] if data['total'] == third_score]
         with col3:
-            st.metric("🥉 Tredje", sorted_scores[2][0].title(), f"{sorted_scores[2][1]['total']} pts")
+            st.metric("🥉 Tredje", " / ".join(third_place), f"{third_score} pts")
     # if len(sorted_scores) > 3:
     #     with col4:
     #         st.metric("4. Fjerde", sorted_scores[3][0].title(), f"{sorted_scores[3][1]['total']} pts")
