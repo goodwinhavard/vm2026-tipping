@@ -29,7 +29,7 @@ def fetch_world_cup_results():
         
         matches = []
         knockout_stages = {
-            'round_of_32': ["Mexico", "USA", "Tyskland", "Argentina", "Frankrike", "Norge", "Colombia", "S\u00f8r-Afrika", "Canada", "Bosnia-Hercegovina", "Marokko"],
+            'round_of_32': ["Mexico", "USA", "Tyskland", "Argentina", "Frankrike", "Norge", "Colombia", "S\u00f8r-Afrika", "Canada", "Bosnia-Hercegovina", "Marokko", "Nederland", "Japan", "Sverige", "Elfenbenskysten", "Ecuador", "Australia"],
             'round_of_16': [],
             'quarter_finals': [],
             'semi_finals': [],
@@ -158,7 +158,7 @@ def fetch_eliminated_teams(results=None):
     # }
 
     return {
-        'pre_round_of_32':    ["Tyrkia", "Haiti", "Tunisia", "Jordan", "Panama", "Tsjekkia", "Qatar"],
+        'pre_round_of_32':    ["Tyrkia", "Haiti", "Tunisia", "Jordan", "Panama", "Tsjekkia", "Qatar", "Cura\u00e7ao"],
         'pre_round_of_16':    [],
         'pre_quarter_finals': [],
         'pre_semi_finals':    [],
