@@ -29,6 +29,7 @@ def fetch_world_cup_results():
         
         matches = []
         knockout_stages = {
+            'pre_round_of_16': [],
             'round_of_32': [
                 "Mexico",
                 "USA",
@@ -123,9 +124,29 @@ def fetch_world_cup_results():
                         knockout_stages[stage_key].append(home_team_nor)
                     if away_team_nor not in knockout_stages[stage_key]:
                         knockout_stages[stage_key].append(away_team_nor)
+
+                    if stage == 'LAST_32' and status == 'FINISHED':
+                        home_score = match['score']['fullTime']['home']
+                        away_score = match['score']['fullTime']['away']
+                        if home_score is not None and away_score is not None:
+                            if home_score > away_score:
+                                loser = away_team_nor
+                            elif away_score > home_score:
+                                loser = home_team_nor
+                            else:
+                                pen = match['score'].get('penalties', {})
+                                pen_home = pen.get('home')
+                                pen_away = pen.get('away')
+                                if pen_home is not None and pen_away is not None:
+                                    loser = away_team_nor if pen_home > pen_away else home_team_nor
+                                else:
+                                    loser = None
+                            if loser and loser not in knockout_stages['pre_round_of_16']:
+                                knockout_stages['pre_round_of_16'].append(loser)
         
         return {
             'matches': matches,
+            'pre_round_of_16': knockout_stages['pre_round_of_16'],
             'round_of_32': list(set(knockout_stages['round_of_32'])),
             'round_of_16': list(set(knockout_stages['round_of_16'])),
             'quarter_finals': list(set(knockout_stages['quarter_finals'])),
@@ -179,20 +200,15 @@ def fetch_eliminated_teams(results=None):
     winner = results.get('finals_winner')
 
     # Group stage: manually maintained (full 48-team list not in API response)
-    pre_round_of_32 = ["Tyrkia"]
+    pre_round_of_32 = ["Tyrkia", "Haiti", "Tunisia", "Jordan", "Panama", "Tsjekkia", "Qatar", "Cura\u00e7ao", "Uruguay", "Irak", "Saudi-Arabia", "New Zealand", "Panama", "S\u00f8r-Korea", "Skottland", "Iran", "Usbekistan"]
 
-    # return {
-    #     'pre_round_of_32':    pre_round_of_32,
-    #     'pre_round_of_16':    sorted(t for t in r32  if t not in r16),
-    #     'pre_quarter_finals': sorted(t for t in r16  if t not in qf),
-    #     'pre_semi_finals':    sorted(t for t in qf   if t not in sf),
-    #     'pre_finals_teams':   sorted(t for t in sf   if t not in final),
-    #     'runner_up':          sorted(t for t in final if t != winner) if winner else [],
-    # }
+
+
+    pre_round_of_16 = results.get('pre_round_of_16') or []
 
     return {
-        'pre_round_of_32':    ["Tyrkia", "Haiti", "Tunisia", "Jordan", "Panama", "Tsjekkia", "Qatar", "Cura\u00e7ao", "Uruguay", "Irak", "Saudi-Arabia", "New Zealand", "Panama", "S\u00f8r-Korea", "Skottland", "Iran", "Usbekistan"],
-        'pre_round_of_16':    [],
+        'pre_round_of_32':    pre_round_of_32,
+        'pre_round_of_16':    pre_round_of_16,
         'pre_quarter_finals': [],
         'pre_semi_finals':    [],
         'pre_finals_teams':   [],
