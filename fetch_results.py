@@ -56,7 +56,12 @@ def fetch_world_cup_results():
                 "Portugal",
                 "Egypt",
                 "Belgia",
-                "Kroatia"
+                "Kroatia",
+                "Sveits",
+                "Brasil",
+                "Algerie",
+                "\u00d8sterrike",
+                "DR Kongo"
                 ],
             'round_of_16': [],
             'quarter_finals': [],
@@ -186,7 +191,7 @@ def fetch_eliminated_teams(results=None):
     # }
 
     return {
-        'pre_round_of_32':    ["Tyrkia", "Haiti", "Tunisia", "Jordan", "Panama", "Tsjekkia", "Qatar", "Cura\u00e7ao", "Uruguay", "Iraq", "Saudi-Arabia", "New Zealand", "Panama"],
+        'pre_round_of_32':    ["Tyrkia", "Haiti", "Tunisia", "Jordan", "Panama", "Tsjekkia", "Qatar", "Cura\u00e7ao", "Uruguay", "Irak", "Saudi-Arabia", "New Zealand", "Panama", "S\u00f8r-Korea", "Skottland", "Iran", "Usbekistan"],
         'pre_round_of_16':    [],
         'pre_quarter_finals': [],
         'pre_semi_finals':    [],
