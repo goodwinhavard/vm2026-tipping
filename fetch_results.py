@@ -65,7 +65,8 @@ def fetch_world_cup_results():
                 "DR Kongo"
                 ],
             'round_of_16': [
-                "Canada"
+                "Canada",
+                "Brasil"
             ],
             'quarter_finals': [],
             'semi_finals': [],
