@@ -30,6 +30,7 @@ def fetch_world_cup_results():
         matches = []
         knockout_stages = {
             'pre_round_of_16': [],
+            'pre_quarter_finals': [],
             'round_of_32': [
                 "Mexico",
                 "USA",
@@ -153,10 +154,35 @@ def fetch_world_cup_results():
                                 knockout_stages['pre_round_of_16'].append(loser)
                             if winner and winner not in knockout_stages['round_of_16']:
                                 knockout_stages['round_of_16'].append(winner)
+                    elif stage == 'LAST_16' and status == 'FINISHED':
+                        home_score = match['score']['fullTime']['home']
+                        away_score = match['score']['fullTime']['away']
+                        if home_score is not None and away_score is not None:
+                            if home_score > away_score:
+                                loser = away_team_nor
+                                winner = home_team_nor
+                            elif away_score > home_score:
+                                loser = home_team_nor
+                                winner = away_team_nor
+                            else:
+                                pen = match['score'].get('penalties', {})
+                                pen_home = pen.get('home')
+                                pen_away = pen.get('away')
+                                if pen_home is not None and pen_away is not None:
+                                    loser = away_team_nor if pen_home > pen_away else home_team_nor
+                                    winner = home_team_nor if pen_home > pen_away else away_team_nor
+                                else:
+                                    loser = None
+                                    winner = None
+                            if loser and loser not in knockout_stages['pre_quarter_finals']:
+                                knockout_stages['pre_quarter_finals'].append(loser)
+                            if winner and winner not in knockout_stages['quarter_finals']:
+                                knockout_stages['quarter_finals'].append(winner)
         
         return {
             'matches': matches,
             'pre_round_of_16': knockout_stages['pre_round_of_16'],
+            'pre_quarter_finals': list(set(knockout_stages['pre_quarter_finals'])),
             'round_of_32': list(set(knockout_stages['round_of_32'])),
             'round_of_16': list(set(knockout_stages['round_of_16'])),
             'quarter_finals': list(set(knockout_stages['quarter_finals'])),
@@ -214,14 +240,15 @@ def fetch_eliminated_teams(results=None):
 
 
     pre_round_of_16 = results.get('pre_round_of_16') or []
-    print(pre_round_of_16)
+    pre_quarter_finals = results.get('pre_quarter_finals') or []
 
-    print(results.get('round_of_16'))
+    print(pre_round_of_16)
+    print(pre_quarter_finals)
 
     return {
         'pre_round_of_32':    pre_round_of_32,
         'pre_round_of_16':    pre_round_of_16,
-        'pre_quarter_finals': [],
+        'pre_quarter_finals': pre_quarter_finals,
         'pre_semi_finals':    [],
         'pre_finals_teams':   [],
         'runner_up':          [],
