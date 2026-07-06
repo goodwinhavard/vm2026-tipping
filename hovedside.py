@@ -115,6 +115,8 @@ try:
         return False
 
     def max_potential(breakdown, player_prediction):
+
+        print("#### Calculating max potential for", player_prediction.get('name', 'Unknown'))
         add = unplayed_matches * 3
         knockout_stages = [
             ('round_of_32', 32, 2),
@@ -137,8 +139,14 @@ try:
             remaining_slots = max(0, total_slots - len(actual_set))
             unscored = [t for t in pred_teams if t and t not in actual_set]
             still_alive = [t for t in unscored if not is_team_eliminated(t, stage_key)]
-            add += min(len(still_alive), remaining_slots) * pts
+
+            #tmp_points = min(len(still_alive), remaining_slots) * pts
+            #add += min(len(still_alive), remaining_slots) * pts
+            add += len(still_alive) * pts
+
             #print(stage_key, actual_set, pred_teams, unscored, still_alive, add)
+            #print(stage_key, still_alive, add, unscored, tmp_points, len(still_alive), remaining_slots, pts)
+
         return breakdown['total'] + add
 
     leaderboard_data = []
