@@ -62,22 +62,25 @@ try:
 
     #col1, col2, col3, col4, col5 = st.columns(5)
     col1, col2, col3 = st.columns(3)
+
+    first_score = sorted_scores[0][1]['total']
+    first_place = [name.title() for name, data in sorted_scores if data['total'] == first_score]
+    rest = sorted_scores[len(first_place):]
     with col1:
-        st.metric("🥇 Leder", sorted_scores[0][0].title(), f"{sorted_scores[0][1]['total']} pts")
-    if len(sorted_scores) > 1:
+        st.metric("🥇 Leder", " / ".join(first_place), f"{first_score} pts")
+
+    if rest:
+        second_score = rest[0][1]['total']
+        second_place = [name.title() for name, data in rest if data['total'] == second_score]
+        rest = rest[len(second_place):]
         with col2:
-            st.metric("🥈 Andre", sorted_scores[1][0].title(), f"{sorted_scores[1][1]['total']} pts")
-    if len(sorted_scores) > 2:
-        third_score = sorted_scores[2][1]['total']
-        third_place = [name.title() for name, data in sorted_scores[2:] if data['total'] == third_score]
+            st.metric("🥈 Andre", " / ".join(second_place), f"{second_score} pts")
+
+    if rest:
+        third_score = rest[0][1]['total']
+        third_place = [name.title() for name, data in rest if data['total'] == third_score]
         with col3:
             st.metric("🥉 Tredje", " / ".join(third_place), f"{third_score} pts")
-    # if len(sorted_scores) > 3:
-    #     with col4:
-    #         st.metric("4. Fjerde", sorted_scores[3][0].title(), f"{sorted_scores[3][1]['total']} pts")
-    # if len(sorted_scores) > 4:
-    #     with col5:
-    #         st.metric("5. Femte", sorted_scores[4][0].title(), f"{sorted_scores[4][1]['total']} pts")
 
     st.markdown("---")
     st.subheader("🏆 Tabell")
@@ -116,7 +119,7 @@ try:
 
     def max_potential(breakdown, player_prediction):
 
-        print("#### Calculating max potential for", player_prediction.get('name', 'Unknown'))
+        #print("#### Calculating max potential for", player_prediction.get('name', 'Unknown'))
         add = unplayed_matches * 3
         knockout_stages = [
             ('round_of_32', 32, 2),
