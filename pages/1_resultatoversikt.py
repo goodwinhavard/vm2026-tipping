@@ -246,7 +246,7 @@ for i, label in enumerate(labels):
             team = teams[i] if i < len(teams) else ''
             row[col] = team
             if team and team in actual_final_teams:
-                color_row[col] = 'background-color: #c6efce'
+                color_row[col] = 'color: green; font-weight: bold'
             elif team and team in elim_before_final:
                 color_row[col] = 'color: red; font-weight: bold'
             else:
@@ -255,7 +255,7 @@ for i, label in enumerate(labels):
             winner = person_final.get('winner', '')
             row[col] = winner
             if winner and winner == actual_winner:
-                color_row[col] = 'background-color: #c6efce'
+                color_row[col] = 'color: green; font-weight: bold'
             elif winner and winner in elim_before_winner:
                 color_row[col] = 'color: red; font-weight: bold'
             else:
