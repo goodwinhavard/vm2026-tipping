@@ -32,6 +32,7 @@ def fetch_world_cup_results():
             'pre_round_of_16': [],
             'pre_quarter_finals': [],
             'pre_semi_finals': [],
+            'pre_finals_teams': [],
             'round_of_32': [
                 "Mexico",
                 "USA",
@@ -203,12 +204,37 @@ def fetch_world_cup_results():
                                 knockout_stages['pre_semi_finals'].append(loser)
                             if winner and winner not in knockout_stages['semi_finals']:
                                 knockout_stages['semi_finals'].append(winner)
+                    elif stage == 'SEMI_FINALS' and status == 'FINISHED':
+                        home_score = match['score']['fullTime']['home']
+                        away_score = match['score']['fullTime']['away']
+                        if home_score is not None and away_score is not None:
+                            if home_score > away_score:
+                                loser = away_team_nor
+                                winner = home_team_nor
+                            elif away_score > home_score:
+                                loser = home_team_nor
+                                winner = away_team_nor
+                            else:
+                                pen = match['score'].get('penalties', {})
+                                pen_home = pen.get('home')
+                                pen_away = pen.get('away')
+                                if pen_home is not None and pen_away is not None:
+                                    loser = away_team_nor if pen_home > pen_away else home_team_nor
+                                    winner = home_team_nor if pen_home > pen_away else away_team_nor
+                                else:
+                                    loser = None
+                                    winner = None
+                            if loser and loser not in knockout_stages['pre_finals_teams']:
+                                knockout_stages['pre_finals_teams'].append(loser)
+                            if winner and winner not in knockout_stages['finals_teams']:
+                                knockout_stages['finals_teams'].append(winner)
         
         return {
             'matches': matches,
             'pre_round_of_16': knockout_stages['pre_round_of_16'],
             'pre_quarter_finals': list(set(knockout_stages['pre_quarter_finals'])),
             'pre_semi_finals': list(set(knockout_stages['pre_semi_finals'])),
+            'pre_finals_teams': list(set(knockout_stages['pre_finals_teams'])),
             'round_of_32': list(set(knockout_stages['round_of_32'])),
             'round_of_16': list(set(knockout_stages['round_of_16'])),
             'quarter_finals': list(set(knockout_stages['quarter_finals'])),
@@ -244,6 +270,7 @@ def fetch_world_cup_results():
             'round_of_16': raw.get('round_of_16', []),
             'quarter_finals': raw.get('quarter_finals', []),
             'semi_finals': raw.get('semi_finals', []),
+            'pre_finals_teams': raw.get('pre_finals_teams', []),
             'finals_teams': finals.get('teams', []),
             'finals_winner': finals.get('winner') or None,
         }
@@ -268,16 +295,19 @@ def fetch_eliminated_teams(results=None):
     pre_round_of_16 = results.get('pre_round_of_16') or []
     pre_quarter_finals = results.get('pre_quarter_finals') or []
     pre_semi_finals = results.get('pre_semi_finals') or []
+    pre_finals_teams = results.get('pre_finals_teams') or []
 
-    print(pre_round_of_16)
-    print(pre_quarter_finals)
-    print(pre_semi_finals)
+    runner_up = []
+    if winner and finals_teams:
+        runner_up = [team for team in finals_teams if team != winner]
+        if runner_up:
+            runner_up = runner_up[:1]
 
     return {
         'pre_round_of_32':    pre_round_of_32,
         'pre_round_of_16':    pre_round_of_16,
         'pre_quarter_finals': pre_quarter_finals,
         'pre_semi_finals':    pre_semi_finals,
-        'pre_finals_teams':   [],
-        'runner_up':          [],
+        'pre_finals_teams':   pre_finals_teams,
+        'runner_up':          runner_up,
     }
