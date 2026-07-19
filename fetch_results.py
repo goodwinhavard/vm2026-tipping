@@ -298,8 +298,8 @@ def fetch_eliminated_teams(results=None):
     pre_finals_teams = results.get('pre_finals_teams') or []
 
     runner_up = []
-    if winner and finals_teams:
-        runner_up = [team for team in finals_teams if team != winner]
+    if winner and final:
+        runner_up = [team for team in final if team != winner]
         if runner_up:
             runner_up = runner_up[:1]
 
