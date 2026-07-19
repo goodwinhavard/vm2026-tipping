@@ -61,10 +61,14 @@ try:
     sorted_scores = sorted(scores_data.items(), key=lambda x: x[1]['total'], reverse=True)
 
     #col1, col2, col3, col4, col5 = st.columns(5)
-    col1, col2, col3 = st.columns(3)
 
     first_score = sorted_scores[0][1]['total']
     first_place = [name.title() for name, data in sorted_scores if data['total'] == first_score]
+
+    st.markdown(f"## 🎉 Gratulerer {', '.join(first_place)}! Du vant tippekonkurransen 🏆")
+
+    col1, col2, col3 = st.columns(3)
+
     rest = sorted_scores[len(first_place):]
     with col1:
         st.metric("🥇 Leder", " / ".join(first_place), f"{first_score} pts")
